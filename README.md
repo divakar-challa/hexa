@@ -38,10 +38,11 @@ unzip -q upload-torture-pack.zip -d fixtures
 
 A complete GitHub Actions example is in [examples/ci/github-actions.yml](examples/ci/github-actions.yml).
 
-The pack contains file names that some tools cannot handle, which is part of the test. The ZIP marks its
-non-ASCII names as UTF-8, as the format requires, yet the Windows build of Info-ZIP `unzip` (the one in Git
-Bash) still mangles two of them, so the last check reports them missing. Python's `zipfile` extracts all 22
-correctly: `python -m zipfile -e upload-torture-pack.zip fixtures`.
+The pack contains file names that some systems cannot store, which is part of the test. On Windows the
+last check reports up to three files missing. The ZIP marks its non-ASCII names as UTF-8, as the format
+requires, but the Windows build of Info-ZIP `unzip` (the one in Git Bash) still mangles two of them; Python's
+`zipfile` keeps them intact (`python -m zipfile -e upload-torture-pack.zip fixtures`). The third,
+`trailing-dot.txt.`, loses its final dot on Windows whatever extracts it, because Windows removes it.
 
 ## Code examples
 
