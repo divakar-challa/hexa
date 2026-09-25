@@ -1,0 +1,4317 @@
+{
+  "schema": 1,
+  "generatedAt": null,
+  "fileCount": 220,
+  "totalBytes": 627398139,
+  "categories": [
+    "3D models",
+    "Archives",
+    "Audio and video",
+    "CAD",
+    "Databases",
+    "Design files",
+    "Documents",
+    "Ebooks",
+    "Email",
+    "Filename edge cases",
+    "Folders and paths",
+    "Fonts",
+    "Geospatial",
+    "Images",
+    "Office documents",
+    "RAG test corpus",
+    "Security and validation",
+    "Size ladder",
+    "Source code",
+    "Structured data",
+    "Subtitles and captions",
+    "Test packs",
+    "Web and text formats"
+  ],
+  "formats": [
+    "7z",
+    "AI",
+    "BMP",
+    "Batch file",
+    "Binary",
+    "CSS",
+    "CSV",
+    "DOCX",
+    "DXF",
+    "EML",
+    "EMLX",
+    "EPS",
+    "EPUB",
+    "FB2",
+    "GIF",
+    "GIF + HTML polyglot",
+    "GPX",
+    "GZIP",
+    "GeoJSON",
+    "HTML",
+    "ICO",
+    "JPEG",
+    "JPEG (spoofed)",
+    "JSON",
+    "JSONL",
+    "JavaScript",
+    "KML",
+    "MBOX",
+    "MHTML",
+    "MP3",
+    "MP4",
+    "MP4 (spoofed)",
+    "MSG",
+    "Markdown",
+    "NDJSON",
+    "OBJ",
+    "ODP",
+    "ODS",
+    "ODT",
+    "PDF",
+    "PLY",
+    "PNG",
+    "PNG (no extension)",
+    "PPTX",
+    "PSD",
+    "Python",
+    "RTF",
+    "SQL",
+    "SQLite",
+    "SRT",
+    "STL",
+    "SVG",
+    "Shell script",
+    "TAR",
+    "TAR+GZIP",
+    "TIFF",
+    "TSV",
+    "TTF",
+    "TXT",
+    "Test pack",
+    "Text",
+    "TypeScript",
+    "WAV",
+    "WEBP",
+    "WOFF",
+    "WOFF2",
+    "WebVTT",
+    "XLS",
+    "XLSM",
+    "XLSX",
+    "XML",
+    "YAML",
+    "ZIP",
+    "glTF",
+    "iCalendar",
+    "vCard"
+  ],
+  "tags": [
+    "3d",
+    "7z",
+    "accessibility",
+    "adobe",
+    "alpha",
+    "animated",
+    "answer-key",
+    "antivirus",
+    "apple",
+    "archive",
+    "attachment",
+    "audio",
+    "autocad",
+    "baseline",
+    "biff8",
+    "binary",
+    "blocklist",
+    "bundle",
+    "cad",
+    "calendar",
+    "case-sensitivity",
+    "code",
+    "contact",
+    "corrupt",
+    "csv",
+    "csv-injection",
+    "data",
+    "database",
+    "decompression-bomb",
+    "design",
+    "directories",
+    "directory-entries",
+    "document",
+    "dos",
+    "ebook",
+    "edge",
+    "eicar",
+    "email",
+    "empty",
+    "encoding",
+    "endianness",
+    "eval",
+    "excel",
+    "executable",
+    "filename",
+    "flagged",
+    "folder",
+    "font",
+    "fuzzing",
+    "geo",
+    "gmail",
+    "gtube",
+    "gzip",
+    "headers",
+    "i18n",
+    "icon",
+    "id3",
+    "image",
+    "inline",
+    "interlace",
+    "json",
+    "large",
+    "legacy",
+    "line-endings",
+    "llm",
+    "lossless",
+    "lossy",
+    "macro",
+    "malformed",
+    "mbox",
+    "mhtml",
+    "mime",
+    "mime-mismatch",
+    "minimal",
+    "mp3",
+    "multibyte",
+    "multipart",
+    "negative",
+    "nested",
+    "numeric",
+    "ocr",
+    "office",
+    "ole2",
+    "ooxml",
+    "opendocument",
+    "outlook",
+    "pack",
+    "pagination",
+    "palette",
+    "parsing",
+    "path-length",
+    "path-traversal",
+    "performance",
+    "phishing",
+    "polyglot",
+    "postscript",
+    "rag",
+    "recursion",
+    "reserved-names",
+    "sanitiser",
+    "security",
+    "separators",
+    "silence",
+    "size",
+    "spam",
+    "sqli",
+    "sqlite",
+    "stored",
+    "streaming",
+    "subtitle",
+    "threading",
+    "tiff",
+    "tiny",
+    "truetype",
+    "truncated",
+    "unicode",
+    "upload",
+    "ustar",
+    "valid",
+    "vector",
+    "web",
+    "webfont",
+    "webp",
+    "windows",
+    "woff",
+    "woff2",
+    "xml",
+    "xss",
+    "xxe",
+    "zip",
+    "zip-bomb"
+  ],
+  "files": [
+    {
+      "key": "3d/cube.gltf",
+      "diskPath": "f/3d/cube.gltf",
+      "name": "cube.gltf",
+      "category": "3D models",
+      "format": "glTF",
+      "tags": [
+        "3d",
+        "valid",
+        "json"
+      ],
+      "description": "A glTF 2.0 document with geometry embedded as a base64 data-URI buffer.",
+      "catches": "The modern web/AR 3D standard. JSON referencing binary accessors; catches viewers that only accept .glb (binary glTF) or external .bin buffers and choke on an embedded data URI.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1340,
+      "mime": "model/gltf+json",
+      "sha256": "1fb87da2ab7c9ec87a16503d2adfe46f6ec34ad7bb6c5899d00f50f2593f689b"
+    },
+    {
+      "key": "3d/cube.obj",
+      "diskPath": "f/3d/cube.obj",
+      "name": "cube.obj",
+      "category": "3D models",
+      "format": "OBJ",
+      "tags": [
+        "3d",
+        "valid"
+      ],
+      "description": "A Wavefront OBJ unit cube: 8 vertices, 12 triangular faces.",
+      "catches": "The most common interchange mesh format. Plain text; catches loaders that assume 1-indexed vs 0-indexed faces (OBJ is 1-indexed) and those that cannot triangulate. Watertight closed mesh.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 221,
+      "mime": "model/obj",
+      "sha256": "e3ebfea63f131372663eba695c3d78df2fcb9119ed042189466c5c17d73ee4c5"
+    },
+    {
+      "key": "3d/cube.ply",
+      "diskPath": "f/3d/cube.ply",
+      "name": "cube.ply",
+      "category": "3D models",
+      "format": "PLY",
+      "tags": [
+        "3d",
+        "valid"
+      ],
+      "description": "A Stanford PLY (ASCII) unit cube.",
+      "catches": "Point-cloud and scan tooling. ASCII header declaring element counts then data; catches parsers that ignore the declared vertex/face counts.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 343,
+      "mime": "application/octet-stream",
+      "sha256": "f09ca2d6411df2cc9717a4fb4f91f67b32b4c5df95855ac51686d7dde51f03fc"
+    },
+    {
+      "key": "3d/cube.stl",
+      "diskPath": "f/3d/cube.stl",
+      "name": "cube.stl",
+      "category": "3D models",
+      "format": "STL",
+      "tags": [
+        "3d",
+        "valid",
+        "binary"
+      ],
+      "description": "A binary STL unit cube: 12 triangles with per-facet normals.",
+      "catches": "The 3D-printing standard. Binary (80-byte header + triangle count + 50 bytes/triangle); catches parsers that only handle ASCII STL, and slicers that need consistent normals.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 684,
+      "mime": "model/stl",
+      "sha256": "db27fdbd2f20e5cf094204ce9d9eed32d56e0dbb2c14706bc80e17e17e703570"
+    },
+    {
+      "key": "archive/absolute-path.zip",
+      "diskPath": "f/archive/absolute-path.zip",
+      "name": "absolute-path.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "security",
+        "path-traversal"
+      ],
+      "description": "Archive whose entry name is an absolute path (/tmp/qa-absolute.txt).",
+      "catches": "The less-tested cousin of Zip Slip. Extractors must strip leading slashes and drive letters rather than honouring an absolute destination.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 161,
+      "mime": "application/zip",
+      "sha256": "9ea841f8c6258f058270bae465ccc538dc3d85d445dae479db0df4d2c6e6cba3"
+    },
+    {
+      "key": "archive/corrupt-central-directory.zip",
+      "diskPath": "f/archive/corrupt-central-directory.zip",
+      "name": "corrupt-central-directory.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "corrupt",
+        "negative"
+      ],
+      "description": "Valid local file headers, but the central directory signature is overwritten with garbage.",
+      "catches": "Readers that trust the central directory blindly and crash, versus tolerant ones that can recover entries by scanning local headers.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 219,
+      "mime": "application/zip",
+      "sha256": "d1194edeac6e322b76436927038138a9dc8325a93fc5daed8e399df8b68ed7d5"
+    },
+    {
+      "key": "archive/empty.zip",
+      "diskPath": "f/archive/empty.zip",
+      "name": "empty.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "edge",
+        "negative"
+      ],
+      "description": "A structurally valid ZIP containing zero entries (22-byte end-of-central-directory only).",
+      "catches": "Import flows that assume at least one entry and throw on an empty iterator, or report success having processed nothing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 22,
+      "mime": "application/zip",
+      "sha256": "8739c76e681f900923b900c9df0ef75cf421d39cabb54650c4b9ad19b6a76d85"
+    },
+    {
+      "key": "archive/mixed-content-50mb.zip",
+      "diskPath": "f/archive/mixed-content-50mb.zip",
+      "name": "mixed-content-50mb.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "large",
+        "valid"
+      ],
+      "description": "Realistic ~50 MB archive mixing incompressible binary blobs with highly compressible text.",
+      "catches": "Progress reporting that extrapolates from compressed bytes, and memory use in extractors that buffer whole entries instead of streaming.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 41970399,
+      "mime": "application/zip",
+      "sha256": "a2b5889583db56e0d4ed5a42e880afdbe4fd58fecd64210119e194a298a2e64e"
+    },
+    {
+      "key": "archive/modest-zip-bomb.zip",
+      "diskPath": "f/archive/modest-zip-bomb.zip",
+      "name": "modest-zip-bomb.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "security",
+        "dos",
+        "zip-bomb"
+      ],
+      "description": "A ~1 MB archive that expands to roughly 1 GB: ten entries of 100 MB of zeroes each. Deliberately modest - this is not a 42 KB / 4.5 PB bomb.",
+      "catches": "Extraction with no output-size cap or compression-ratio check. Your extractor should abort once the decompressed total crosses a threshold, rather than filling the disk. Expansion ratio ~1000:1.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1020252,
+      "mime": "application/zip",
+      "sha256": "bdf118f346d0f790e0a707d49b0c15a3ca048463c69f3621949b821e87a1915a"
+    },
+    {
+      "key": "archive/nested-10-deep.zip",
+      "diskPath": "f/archive/nested-10-deep.zip",
+      "name": "nested-10-deep.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "recursion",
+        "performance"
+      ],
+      "description": "A ZIP containing a ZIP containing a ZIP, ten levels down, with a text file at the centre.",
+      "catches": "Recursive scanners (antivirus, content indexers, import jobs) with no depth limit. A bounded extractor should stop at a configured depth and report it, not recurse forever.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1222,
+      "mime": "application/zip",
+      "sha256": "0a16d5d585e29772e170d57f939b3211f2ad5649ce876afc2a0d0d9d42752ab4"
+    },
+    {
+      "key": "archive/single-file.gz",
+      "diskPath": "f/archive/single-file.gz",
+      "name": "single-file.gz",
+      "category": "Archives",
+      "format": "GZIP",
+      "tags": [
+        "valid",
+        "gzip"
+      ],
+      "description": "A single gzip-compressed text file (not a tar), with the original filename in the header.",
+      "catches": "The distinction between gzip-of-one-file and tar.gz. Decompressors that always try to untar the result will fail on this; the FNAME header field also tests filename recovery.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 146,
+      "mime": "application/gzip",
+      "sha256": "60fbfdaaf05f0901d2ce5130ea4edc59e031cb30467a4c9c01abfd619f1d4182"
+    },
+    {
+      "key": "archive/stored.7z",
+      "diskPath": "f/archive/stored.7z",
+      "name": "stored.7z",
+      "category": "Archives",
+      "format": "7z",
+      "tags": [
+        "archive",
+        "valid",
+        "7z",
+        "stored"
+      ],
+      "description": "A valid .7z archive holding three files, including one in a subdirectory. Entries use the Copy codec, so they are stored rather than compressed.",
+      "catches": "Extractors and upload filters that accept .7z by extension without being able to read one. The format is laid out back to front - the signature header points at metadata that sits after the payload - so a truncated download fails in a way ZIP does not. Extracts with 7-Zip, p7zip and py7zr, and each entry carries its own CRC32, so corruption is detected per file rather than for the archive as a whole.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 303,
+      "mime": "application/x-7z-compressed",
+      "sha256": "31e9a5822e78fcadae442eef9dabe5162560bcc37734aebabf43e0e08456273e"
+    },
+    {
+      "key": "archive/unicode-entry-names.zip",
+      "diskPath": "f/archive/unicode-entry-names.zip",
+      "name": "unicode-entry-names.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "unicode",
+        "i18n"
+      ],
+      "description": "Entries named in Japanese, Arabic, Russian and emoji, with the UTF-8 flag (bit 11) set correctly.",
+      "catches": "Extractors that ignore the UTF-8 flag and fall back to CP437, producing mojibake filenames - still common on Windows.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 563,
+      "mime": "application/zip",
+      "sha256": "905894694aafd53e946ca6328a8765cbf53f36ffc2c473f394ded37c9f0fad4f"
+    },
+    {
+      "key": "archive/valid-flat.zip",
+      "diskPath": "f/archive/valid-flat.zip",
+      "name": "valid-flat.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "Three deflated text files at the archive root, no directories.",
+      "catches": "Baseline extraction check.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 376,
+      "mime": "application/zip",
+      "sha256": "a8e3fb09b187d71285f1b908f39f1734e43e8143d182505306af44b442852c32"
+    },
+    {
+      "key": "archive/valid-nested-dirs.zip",
+      "diskPath": "f/archive/valid-nested-dirs.zip",
+      "name": "valid-nested-dirs.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "valid",
+        "directories"
+      ],
+      "description": "Archive with entries five directory levels deep.",
+      "catches": "Extractors that fail to create intermediate directories, and Windows targets where the expanded path exceeds MAX_PATH (260 chars).",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 390,
+      "mime": "application/zip",
+      "sha256": "45eb1c114ac57aae4c176790023d361faf483bf8dc266e0f4c31480f696dacd4"
+    },
+    {
+      "key": "archive/valid.tar",
+      "diskPath": "f/archive/valid.tar",
+      "name": "valid.tar",
+      "category": "Archives",
+      "format": "TAR",
+      "tags": [
+        "valid",
+        "ustar"
+      ],
+      "description": "A USTAR tar archive with three files, including one in a subdirectory.",
+      "catches": "Tar handling as distinct from zip: no central directory, 512-byte headers, octal size fields. Catches code that assumes \"archive\" means zip.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 4096,
+      "mime": "application/x-tar",
+      "sha256": "10423077ca0e6bd4595013c517de17a831309c3c0fa9c79bb3c2f01d46e2ee7c"
+    },
+    {
+      "key": "archive/valid.tar.gz",
+      "diskPath": "f/archive/valid.tar.gz",
+      "name": "valid.tar.gz",
+      "category": "Archives",
+      "format": "TAR+GZIP",
+      "tags": [
+        "valid",
+        "gzip"
+      ],
+      "description": "The gzip-compressed form of a tar archive - the ubiquitous .tar.gz.",
+      "catches": "The two-stage decode (gunzip, then untar) that trips code expecting a single compression step. Also a media-type check: .tar.gz is application/gzip on the outside, not application/x-tar.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 188,
+      "mime": "application/gzip",
+      "sha256": "0da101bf8694244200910ca6601eb14a9b7cd9cc543af255392559d3521d2548"
+    },
+    {
+      "key": "archive/zip-slip-traversal.zip",
+      "diskPath": "f/archive/zip-slip-traversal.zip",
+      "name": "zip-slip-traversal.zip",
+      "category": "Archives",
+      "format": "ZIP",
+      "tags": [
+        "security",
+        "path-traversal"
+      ],
+      "description": "Archive containing an entry named ../../../../tmp/qa-zip-slip.txt. The payload is a harmless text marker, but the path escapes the extraction directory.",
+      "catches": "Extractors that join the entry name to the destination without normalising and re-checking containment (Zip Slip, CVE-2018-1002200 and dozens of siblings). A correct extractor rejects this entry; a vulnerable one writes outside the target directory.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 357,
+      "mime": "application/zip",
+      "sha256": "bf5ee2334900a786100f6b030fa929e1a6101b1075f501ff8d7be41c0b38107e"
+    },
+    {
+      "key": "audio/declared-length-mismatch.wav",
+      "diskPath": "f/audio/declared-length-mismatch.wav",
+      "name": "declared-length-mismatch.wav",
+      "category": "Audio and video",
+      "format": "WAV",
+      "tags": [
+        "corrupt",
+        "negative"
+      ],
+      "description": "Valid WAV whose data chunk header declares ten times more bytes than the file actually contains.",
+      "catches": "Decoders that trust the declared chunk length and either read past the buffer or hang waiting for data that never arrives. A robust decoder clamps to the actual file size.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 176444,
+      "mime": "audio/wav",
+      "sha256": "fa849fa10674fce6a798353aad7913789f3dd054fa4b677ad368ee8e1e21d790"
+    },
+    {
+      "key": "audio/no-id3-raw.mp3",
+      "diskPath": "f/audio/no-id3-raw.mp3",
+      "name": "no-id3-raw.mp3",
+      "category": "Audio and video",
+      "format": "MP3",
+      "tags": [
+        "audio",
+        "valid",
+        "mp3",
+        "edge"
+      ],
+      "description": "The same audio with no ID3 tag at all, so the file begins directly with an MPEG sync word.",
+      "catches": "The other half of MP3 detection. A parser that only recognises files beginning with ID3 will reject this perfectly valid stream, and one that assumes a tag exists will read the first frame as metadata.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 32109,
+      "mime": "audio/mpeg",
+      "sha256": "2778cdad120f03abcfdded1f3273cd0287771dcd06fbd576c2956f82a0d789bc"
+    },
+    {
+      "key": "audio/silence-30s.wav",
+      "diskPath": "f/audio/silence-30s.wav",
+      "name": "silence-30s.wav",
+      "category": "Audio and video",
+      "format": "WAV",
+      "tags": [
+        "edge",
+        "silence"
+      ],
+      "description": "30 seconds of digital silence, 16-bit PCM mono.",
+      "catches": "Transcription and voice-activity pipelines that hang or return an empty result without distinguishing \"no speech\" from \"processing failed\". Also normalisation code that divides by peak amplitude - here, zero.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2646044,
+      "mime": "audio/wav",
+      "sha256": "34e20072bd56124004287878b329f8869869aba39273214720521bf7a0a3425f"
+    },
+    {
+      "key": "audio/silence-5s.mp3",
+      "diskPath": "f/audio/silence-5s.mp3",
+      "name": "silence-5s.mp3",
+      "category": "Audio and video",
+      "format": "MP3",
+      "tags": [
+        "audio",
+        "valid",
+        "mp3",
+        "id3"
+      ],
+      "description": "Five seconds of silence as MPEG-1 Layer III, 128 kbps, 44.1 kHz mono, with an ID3v2.3 tag carrying a title and artist.",
+      "catches": "Audio upload and metadata handling. Starts with the ASCII marker ID3 rather than an MPEG sync word, which is exactly what trips signature checks that only look for 0xFFFB. Also confirms a reader skips the syncsafe-sized ID3 tag before hunting for the first frame.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 79729,
+      "mime": "audio/mpeg",
+      "sha256": "5102d6ffd03351862cec6b16cdaf34d0e2288bc3d8879e83e6676b8e9a76e4e8"
+    },
+    {
+      "key": "audio/tone-5s.wav",
+      "diskPath": "f/audio/tone-5s.wav",
+      "name": "tone-5s.wav",
+      "category": "Audio and video",
+      "format": "WAV",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "5 seconds of a 440 Hz sine tone, 16-bit PCM mono at 44.1 kHz.",
+      "catches": "Baseline playback and waveform rendering. An audible tone makes silent failures obvious.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 441044,
+      "mime": "audio/wav",
+      "sha256": "5ed9e874d6e6cb55d098831ac4e965b03633d8186b6dae7128decda2e3f90c02"
+    },
+    {
+      "key": "audio/truncated-header.wav",
+      "diskPath": "f/audio/truncated-header.wav",
+      "name": "truncated-header.wav",
+      "category": "Audio and video",
+      "format": "WAV",
+      "tags": [
+        "corrupt",
+        "negative"
+      ],
+      "description": "A WAV file cut off after 30 bytes, mid-header.",
+      "catches": "Parsers that read fixed offsets without bounds-checking and throw an out-of-range error instead of reporting a malformed file.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 30,
+      "mime": "audio/wav",
+      "sha256": "1a34ac609c1addcfc3c4e0980b57659d1bbc93a942afe4b39d671e3b1d9aa054"
+    },
+    {
+      "key": "audio/very-short-10ms.wav",
+      "diskPath": "f/audio/very-short-10ms.wav",
+      "name": "very-short-10ms.wav",
+      "category": "Audio and video",
+      "format": "WAV",
+      "tags": [
+        "edge",
+        "minimal"
+      ],
+      "description": "10 milliseconds of audio - 441 samples.",
+      "catches": "Decoders with a minimum frame or window size, and duration formatters that render this as \"0:00\" or divide by a zero-second duration.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 926,
+      "mime": "audio/wav",
+      "sha256": "d23833d93b968455dd817ba1849dd1a6e7d534dbde2cf28cca98130a115ab95b"
+    },
+    {
+      "key": "cad/drawing.dxf",
+      "diskPath": "f/cad/drawing.dxf",
+      "name": "drawing.dxf",
+      "category": "CAD",
+      "format": "DXF",
+      "tags": [
+        "cad",
+        "valid",
+        "autocad"
+      ],
+      "description": "A minimal AutoCAD R12 (AC1009) DXF with a closed polyline, a line, a circle and a text label.",
+      "catches": "CAD import and DXF parsing. DXF is plain group-code/value text, so it catches importers that assume a binary CAD blob, and the R12-vs-R2000 structural split (this is the widely-compatible R12 form, with heavyweight POLYLINE rather than the newer LWPOLYLINE). Generated from source.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 743,
+      "mime": "image/vnd.dxf",
+      "sha256": "864324b6c4d194ff81f631fcf8fa0871ad73e4ff48887aa9f24e0563e9702786"
+    },
+    {
+      "key": "code/mixed-indentation.py",
+      "diskPath": "f/code/mixed-indentation.py",
+      "name": "mixed-indentation.py",
+      "category": "Source code",
+      "format": "Python",
+      "tags": [
+        "code",
+        "negative",
+        "edge"
+      ],
+      "description": "Python that mixes tab and space indentation inside one block, which the interpreter rejects.",
+      "catches": "Editors, formatters and diff views that render tabs and spaces identically, so the file looks perfectly aligned on screen and still fails with TabError at import. Also any tool that strips or normalises whitespace on upload and changes what the code means.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 146,
+      "mime": "text/x-python; charset=utf-8",
+      "sha256": "ebf668cedebc40c144d82aad5bc1b02c05697e8428db91faa23f44924b416c54"
+    },
+    {
+      "key": "code/sample.py",
+      "diskPath": "f/code/sample.py",
+      "name": "sample.py",
+      "category": "Source code",
+      "format": "Python",
+      "tags": [
+        "code",
+        "valid"
+      ],
+      "description": "A Python module with type hints, a dataclass, a generator, f-strings and a triple-quoted docstring.",
+      "catches": "Highlighters and extractors that mishandle triple-quoted strings, and any tool that counts braces to find blocks. Python has none, so indentation is the only structure, which is what makes the mixed-indentation file below a genuine failure and not a style question.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 693,
+      "mime": "text/x-python; charset=utf-8",
+      "sha256": "383d1b4d296abfbb898653535afd74123a5bde452b7df12b0e9ef72730b42391"
+    },
+    {
+      "key": "code/sample.ts",
+      "diskPath": "f/code/sample.ts",
+      "name": "sample.ts",
+      "category": "Source code",
+      "format": "TypeScript",
+      "tags": [
+        "code",
+        "valid"
+      ],
+      "description": "A TypeScript module using generics, a discriminated union, enums, decorators and JSX-free type syntax.",
+      "catches": "Highlighters and parsers that treat .ts as plain JavaScript. The type annotations, generic angle brackets and \"satisfies\" operator are the constructs that break a JS-only tokeniser, usually by mistaking < and > for comparison.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 774,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "389cc0a1a1881fa69c8ae72735d23e0fbf782174c35110f59e85bd675e7bf8f1"
+    },
+    {
+      "key": "code/schema.sql",
+      "diskPath": "f/code/schema.sql",
+      "name": "schema.sql",
+      "category": "Source code",
+      "format": "SQL",
+      "tags": [
+        "code",
+        "valid"
+      ],
+      "description": "A DDL and DML script with constraints, an index, a view, a transaction and dollar-free string literals.",
+      "catches": "SQL splitters that break statements on every semicolon. The semicolons inside string literals and the comment here are the ones that make a naive split produce invalid fragments.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1062,
+      "mime": "application/sql",
+      "sha256": "412fbe6c0646cda5a0829b7672578ab400a98d1e2a9d166a43a3d1492ac16593"
+    },
+    {
+      "key": "csv/1000-rows.csv",
+      "diskPath": "f/csv/1000-rows.csv",
+      "name": "1000-rows.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "csv",
+        "valid",
+        "baseline"
+      ],
+      "description": "A clean 1,000-row CSV with a header and five typed columns: id, name, email, amount and active.",
+      "catches": "The everyday import case: big enough to exercise pagination, batching and progress reporting, small enough to open in a spreadsheet. The most requested size in this niche.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 47322,
+      "mime": "text/csv",
+      "sha256": "4204cc7b7f08b2e072c1af0de342f55cce111c521174bdad1ff4f918c869a69a"
+    },
+    {
+      "key": "csv/1million-rows.csv",
+      "diskPath": "f/csv/1million-rows.csv",
+      "name": "1million-rows.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "large",
+        "performance"
+      ],
+      "description": "1,000,000 data rows, roughly 65 MB. Exceeds the Excel worksheet row limit of 1,048,576 minus headers.",
+      "catches": "Import jobs that load the whole file into memory, and UIs that try to preview every row. Also useful for confirming your progress bar is honest.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 35738961,
+      "mime": "text/csv; charset=utf-8",
+      "sha256": "a7ff891008a07e7d56692a8fd415d54da8c5867116c1c572d2275133c5b8bca9"
+    },
+    {
+      "key": "csv/bom-and-semicolons.csv",
+      "diskPath": "f/csv/bom-and-semicolons.csv",
+      "name": "bom-and-semicolons.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "encoding",
+        "i18n"
+      ],
+      "description": "UTF-8 BOM, semicolon delimiters and comma decimal separators - the format Excel produces in most European locales.",
+      "catches": "Importers hardcoded to comma delimiters, and the stray \"\" that appears before the first column header when the BOM is not stripped. Extremely common real-world support ticket.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 124,
+      "mime": "text/csv; charset=utf-8",
+      "sha256": "f011c1f7fd1b20aa993782865d5884ca6aa23089fabe5dc560b47c041bdf080a"
+    },
+    {
+      "key": "csv/formula-injection.csv",
+      "diskPath": "f/csv/formula-injection.csv",
+      "name": "formula-injection.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "security",
+        "csv-injection"
+      ],
+      "description": "Cells beginning with =, +, -, @ and tab, which spreadsheet applications interpret as formulas. The payloads are non-destructive: they reference HYPERLINK and a harmless calculation.",
+      "catches": "CSV export endpoints that write user-supplied data unescaped. When a victim opens the export in Excel or Sheets, the formula executes in their context. Correct mitigation is prefixing risky cells with a single quote or wrapping them.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 357,
+      "mime": "text/csv; charset=utf-8",
+      "sha256": "c591c3c65f09f7ce69b6b47558650baf9ad511d14df5c95e0fdd9977bcbf0d0f"
+    },
+    {
+      "key": "csv/quoting-nightmare.csv",
+      "diskPath": "f/csv/quoting-nightmare.csv",
+      "name": "quoting-nightmare.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "edge",
+        "parsing"
+      ],
+      "description": "Every RFC 4180 quoting edge case in one file: embedded commas, embedded newlines inside quoted fields, escaped double quotes, leading and trailing whitespace, and empty fields.",
+      "catches": "Naive parsers that split on commas. A correct parser returns exactly 7 data rows; a naive one typically reports 9 or 10.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 407,
+      "mime": "text/csv; charset=utf-8",
+      "sha256": "557f8d813aa8cec4212f6bcb3e6a11cfdeadc48fab3d825f2e9a7fb26bd36d5e"
+    },
+    {
+      "key": "csv/ragged-rows.csv",
+      "diskPath": "f/csv/ragged-rows.csv",
+      "name": "ragged-rows.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "negative",
+        "malformed"
+      ],
+      "description": "Rows with too few and too many columns relative to the header.",
+      "catches": "Importers that silently pad or drop values. The right behaviour is a per-row validation error naming the row number, not a partial import.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 123,
+      "mime": "text/csv; charset=utf-8",
+      "sha256": "2292b423c8910544ee2df0a720e17cfaebb15f10270c0dd64e39bfc411635cb4"
+    },
+    {
+      "key": "csv/valid-simple.csv",
+      "diskPath": "f/csv/valid-simple.csv",
+      "name": "valid-simple.csv",
+      "category": "Structured data",
+      "format": "CSV",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "Header row plus 100 rows of clean, unquoted ASCII data.",
+      "catches": "Baseline.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 4368,
+      "mime": "text/csv; charset=utf-8",
+      "sha256": "dfb9d357c93e725493c48f9c0e8cca6b92bcaf0826bcdb493e4ffe3e7bcc1f91"
+    },
+    {
+      "key": "db/truncated.sqlite",
+      "diskPath": "f/db/truncated.sqlite",
+      "name": "truncated.sqlite",
+      "category": "Databases",
+      "format": "SQLite",
+      "tags": [
+        "database",
+        "corrupt",
+        "truncated",
+        "sqlite"
+      ],
+      "description": "The same database cut off in the middle of the second page, so the header still looks correct but the data pages are incomplete.",
+      "catches": "Error handling for a partially-uploaded or interrupted database transfer. The signature and header validate, so extension and magic-number checks both pass, and opening it does not fail either: SQLite 3.50 reads the missing bytes as zeros and returns every row as (0, NULL, NULL, NULL). Only PRAGMA integrity_check reports the damage.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 6000,
+      "mime": "application/vnd.sqlite3",
+      "sha256": "1b6fd338a1fc3e8d9b112f64a908fe6d83b2c951696efc5ab353e1c0e8215fd4"
+    },
+    {
+      "key": "db/users.sqlite",
+      "diskPath": "f/db/users.sqlite",
+      "name": "users.sqlite",
+      "category": "Databases",
+      "format": "SQLite",
+      "tags": [
+        "database",
+        "valid",
+        "sqlite"
+      ],
+      "description": "A genuinely valid SQLite 3 database with one table (users) and 10 rows, written byte-by-byte from source so the file is reproducible.",
+      "catches": "Database import, upload and inspection paths. Opens in sqlite3, DB Browser, Python and any SQLite driver; PRAGMA integrity_check returns ok and ordinary SELECT/WHERE queries work. Also exercises magic-number detection: the file starts with the ASCII string \"SQLite format 3\".",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 8192,
+      "mime": "application/vnd.sqlite3",
+      "sha256": "876aa8e4bd7df3ec7f2f9b27d5738b618ed4bda5436cd88f34721edeaa203cf6"
+    },
+    {
+      "key": "design/illustrator.ai",
+      "diskPath": "f/design/illustrator.ai",
+      "name": "illustrator.ai",
+      "category": "Design files",
+      "format": "AI",
+      "tags": [
+        "design",
+        "valid",
+        "adobe",
+        "vector"
+      ],
+      "description": "An Adobe Illustrator file in the modern PDF-compatible form (a valid PDF with vector artwork), which is how current .ai files are structured.",
+      "catches": "Handlers that assume .ai is EPS/PostScript and choke on the PDF-based form, and MIME sniffing that must tell an .ai apart from a plain .pdf. Opens in Illustrator, Preview and any PDF viewer.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 863,
+      "mime": "application/postscript",
+      "sha256": "65ff31529fbbb00b09d0427453436993a65e18628cc458adfa435577f2ab315c"
+    },
+    {
+      "key": "design/photoshop.psd",
+      "diskPath": "f/design/photoshop.psd",
+      "name": "photoshop.psd",
+      "category": "Design files",
+      "format": "PSD",
+      "tags": [
+        "design",
+        "valid",
+        "adobe"
+      ],
+      "description": "A minimal flattened Adobe Photoshop document: 128x128, 8-bit RGB, uncompressed, no layers.",
+      "catches": "Whether your pipeline recognises a real PSD (magic bytes \"8BPS\") rather than trusting the extension, and whether a preview/thumbnail step can flatten one. Generated from source - no stock imagery.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 49192,
+      "mime": "image/vnd.adobe.photoshop",
+      "sha256": "86ca27abb25ff6f22664c68371582eb59944fd7c609cfa23d757c77bf26ce0ff"
+    },
+    {
+      "key": "design/vector.eps",
+      "diskPath": "f/design/vector.eps",
+      "name": "vector.eps",
+      "category": "Design files",
+      "format": "EPS",
+      "tags": [
+        "design",
+        "valid",
+        "vector",
+        "postscript"
+      ],
+      "description": "An Encapsulated PostScript file drawing filled shapes and text, LanguageLevel 2.",
+      "catches": "The PostScript branch of design-file handling - distinct from the PDF-based .ai. Catches importers that only special-case PDF and treat EPS as opaque, and print pipelines that must rasterise PostScript.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 391,
+      "mime": "application/postscript",
+      "sha256": "0489be4b55df4e6f4528aba0b6400a09ff0dd7e8caf64c833c651a45591ec76b"
+    },
+    {
+      "key": "ebook/broken-container.epub",
+      "diskPath": "f/ebook/broken-container.epub",
+      "name": "broken-container.epub",
+      "category": "Ebooks",
+      "format": "EPUB",
+      "tags": [
+        "ebook",
+        "corrupt",
+        "negative"
+      ],
+      "description": "EPUB whose META-INF/container.xml points at an OPF file that does not exist in the archive.",
+      "catches": "Readers that trust container.xml without checking the target resolves. A correct reader reports a broken book; a fragile one throws an unhandled error deep in parsing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1516,
+      "mime": "application/epub+zip",
+      "sha256": "afd0525368dec495c11f8cff4db86c5d0e85b131f6888f1ba328502d12e3a59e"
+    },
+    {
+      "key": "ebook/sample.fb2",
+      "diskPath": "f/ebook/sample.fb2",
+      "name": "sample.fb2",
+      "category": "Ebooks",
+      "format": "FB2",
+      "tags": [
+        "ebook",
+        "valid"
+      ],
+      "description": "A valid FictionBook 2.0 ebook: a single XML document with description, body and sections.",
+      "catches": "FB2 is one XML file, not a ZIP, so readers and converters that assume every ebook is an archive fail on it immediately. Also exercises the binary-free path: no cover image is declared, which some converters assume is always present.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 927,
+      "mime": "application/x-fictionbook+xml",
+      "sha256": "7e56d4c63f989794f6a6d063f706e53461d17b3d724e8e39aa444c8b02aaa29d"
+    },
+    {
+      "key": "ebook/valid.epub",
+      "diskPath": "f/ebook/valid.epub",
+      "name": "valid.epub",
+      "category": "Ebooks",
+      "format": "EPUB",
+      "tags": [
+        "ebook",
+        "valid"
+      ],
+      "description": "A valid EPUB 2 with metadata, an NCX table of contents and three chapters.",
+      "catches": "Ereaders and ingestion pipelines. EPUB has the same stored-first mimetype rule as ODF, plus a container.xml indirection to the package document - two things naive ZIP handling gets wrong.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2148,
+      "mime": "application/epub+zip",
+      "sha256": "ad719e81f75520420d5d4688da7043e5acb7956cc26e7ca6b6523d48d647253d"
+    },
+    {
+      "key": "email/apple-mail.emlx",
+      "diskPath": "f/email/apple-mail.emlx",
+      "name": "apple-mail.emlx",
+      "category": "Email",
+      "format": "EMLX",
+      "tags": [
+        "email",
+        "valid",
+        "apple"
+      ],
+      "description": "Apple Mail’s on-disk format: a byte-count line, then the RFC 822 message, then an XML plist of Mail’s own metadata.",
+      "catches": "Apple Mail import and migration. The leading byte count and trailing plist break every tool that assumes a .emlx is just an .eml, which is the usual reason Mail exports fail to import elsewhere.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 742,
+      "mime": "message/rfc822",
+      "sha256": "8c2736971c4ea2eb42a5cc19cd383dc2845841ae9f04628b7db92f0f6775b865"
+    },
+    {
+      "key": "email/attachment-tricky-filename.eml",
+      "diskPath": "f/email/attachment-tricky-filename.eml",
+      "name": "attachment-tricky-filename.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "edge",
+        "attachment",
+        "security"
+      ],
+      "description": "An attachment whose filename uses RFC 2231 continuation encoding, contains a double extension and non-ASCII characters.",
+      "catches": "Filename sanitising on save. The name decodes to a double-extension file, which is exactly the pattern used to disguise executables. Also catches parsers that only understand the simple filename=\"...\" form.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 643,
+      "mime": "message/rfc822",
+      "sha256": "5dfc33093885d6ea39ab2ca3fcd4abe70acb1c0433515258e44a66618b4c66a0"
+    },
+    {
+      "key": "email/dkim-spf-headers.eml",
+      "diskPath": "f/email/dkim-spf-headers.eml",
+      "name": "dkim-spf-headers.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "security",
+        "headers"
+      ],
+      "description": "A message with a realistic Received chain plus Authentication-Results, DKIM-Signature and ARC headers.",
+      "catches": "Header-chain parsing and authentication display. Useful for testing code that surfaces SPF/DKIM/DMARC results, and for checking that a long Received chain is folded and read correctly.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1007,
+      "mime": "message/rfc822",
+      "sha256": "ddc10028aad8088ea9d05c20e5edb33b9abf85da602a5d0c47371de0c277492c"
+    },
+    {
+      "key": "email/empty-body.eml",
+      "diskPath": "f/email/empty-body.eml",
+      "name": "empty-body.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "edge",
+        "empty"
+      ],
+      "description": "Valid headers followed by a completely empty body.",
+      "catches": "Readers that assume every message has content. A subject-only message is legitimate and common for calendar and notification mail.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 273,
+      "mime": "message/rfc822",
+      "sha256": "08a9c0d43008deae3ba10bd3bcf1eccfd8ad0bb0fd6c7df9696cc11b24f77ef3"
+    },
+    {
+      "key": "email/forwarded-nested.eml",
+      "diskPath": "f/email/forwarded-nested.eml",
+      "name": "forwarded-nested.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "nested"
+      ],
+      "description": "A forwarded message: a complete RFC 5322 message embedded as a message/rfc822 part inside another.",
+      "catches": "Recursive parsing. Catches extractors that treat the nested message as opaque text, and anything that does not recurse into message/rfc822 when scanning attachments.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 864,
+      "mime": "message/rfc822",
+      "sha256": "5abfbe80bb797acc0730b31f7ae1d820e91760d96d0a340e0347c181095995fc"
+    },
+    {
+      "key": "email/html-multipart.eml",
+      "diskPath": "f/email/html-multipart.eml",
+      "name": "html-multipart.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "multipart"
+      ],
+      "description": "multipart/alternative carrying both a text/plain and a text/html version of the same message.",
+      "catches": "Clients that pick the wrong alternative, or render the HTML part as literal text. Also catches parsers that stop at the first part.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 593,
+      "mime": "message/rfc822",
+      "sha256": "f0092b2f4414211ce1f3d5813729cc7ed0646f9f0fd4df5fd1de1e5ffd193a07"
+    },
+    {
+      "key": "email/inline-image-cid.eml",
+      "diskPath": "f/email/inline-image-cid.eml",
+      "name": "inline-image-cid.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "multipart",
+        "inline"
+      ],
+      "description": "multipart/related where the HTML body references an inline image through a cid: URL.",
+      "catches": "Inline-image rendering. Catches clients that show the image as a separate attachment instead of inline, and HTML sanitisers that strip cid: references.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 774,
+      "mime": "message/rfc822",
+      "sha256": "3493781785165968715bd68abbd2d8a771ca8b49ee37ed73062bfa5a0bcf1f8a"
+    },
+    {
+      "key": "email/long-folded-headers.eml",
+      "diskPath": "f/email/long-folded-headers.eml",
+      "name": "long-folded-headers.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "edge",
+        "headers"
+      ],
+      "description": "Headers folded across many continuation lines, including a To: field with 25 recipients and a 300-character subject.",
+      "catches": "Header unfolding. Catches parsers that read one physical line per header, truncate at 78 characters, or lose recipients after the first fold.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1033,
+      "mime": "message/rfc822",
+      "sha256": "f59190b8aa44837cefff19dd8dc1e2b1eb45ac4f4b9b7e0af44bb571238b9f62"
+    },
+    {
+      "key": "email/mailbox.mbox",
+      "diskPath": "f/email/mailbox.mbox",
+      "name": "mailbox.mbox",
+      "category": "Email",
+      "format": "MBOX",
+      "tags": [
+        "email",
+        "valid",
+        "mbox",
+        "gmail"
+      ],
+      "description": "An mbox archive of three messages, the format Gmail Takeout, Thunderbird and Apple Mail all export. Includes a body line beginning with \"From \" that has been escaped to \">From \".",
+      "catches": "mbox splitting. A parser that splits on every line starting with \"From \" will corrupt the third message; one that never unescapes \">From \" will silently alter the body text.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1090,
+      "mime": "application/mbox",
+      "sha256": "85ff4064c9efec3a74d56ef8d3abc2d064f32dd9402bde713e1ff70a216f54da"
+    },
+    {
+      "key": "email/missing-required-headers.eml",
+      "diskPath": "f/email/missing-required-headers.eml",
+      "name": "missing-required-headers.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "corrupt",
+        "negative"
+      ],
+      "description": "A message with no Date and no Message-ID, and a body separated by a bare LF instead of CRLF.",
+      "catches": "Parsers that assume Date and Message-ID always exist, and ones that only split the header block on CRLFCRLF. Both are extremely common assumptions.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 103,
+      "mime": "message/rfc822",
+      "sha256": "3a617a25fbe83b53870bbd113f6ca0adc16e8b9e30d8be066b0354be1df25576"
+    },
+    {
+      "key": "email/outlook-message.msg",
+      "diskPath": "f/email/outlook-message.msg",
+      "name": "outlook-message.msg",
+      "category": "Email",
+      "format": "MSG",
+      "tags": [
+        "email",
+        "valid",
+        "outlook",
+        "ole2"
+      ],
+      "description": "A genuine Outlook .msg: MAPI properties stored inside an OLE2 compound file, with a recipient sub-storage and the original transport headers preserved.",
+      "catches": "Outlook-specific handling. A .msg is a property bag, not a mail format, so no RFC 5322 parser can read it. Opens in Outlook and parses in extract_msg. Also a second OLE2 fixture, sharing its container with legacy .doc and .xls.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 6656,
+      "mime": "application/vnd.ms-outlook",
+      "sha256": "4f95345c93341a36641fa1a849cb8503436e2f3b8143db8fab814938f6356cb8"
+    },
+    {
+      "key": "email/plain-text.eml",
+      "diskPath": "f/email/plain-text.eml",
+      "name": "plain-text.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "baseline"
+      ],
+      "description": "A minimal, fully valid RFC 5322 message: text/plain, UTF-8, CRLF line endings and all required headers.",
+      "catches": "Baseline for any .eml parser. Confirms header parsing, CRLF handling and that the body is separated by exactly one blank line.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 337,
+      "mime": "message/rfc822",
+      "sha256": "761804bd96c81708c2e692bcaac173aac84182ffbc078b9dd6e891f3b63fe30a"
+    },
+    {
+      "key": "email/quoted-printable.eml",
+      "diskPath": "f/email/quoted-printable.eml",
+      "name": "quoted-printable.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "encoding"
+      ],
+      "description": "A quoted-printable body with accented characters, soft line breaks and an = sign at a wrap boundary.",
+      "catches": "Quoted-printable decoding. Catches decoders that mishandle soft line breaks (a trailing =) or fail to unescape =XX sequences.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 535,
+      "mime": "message/rfc822",
+      "sha256": "74a8ec24d3d75585cd8eb718b6fa01b4cd1e5493b20b53fd9c04b417bd15ce28"
+    },
+    {
+      "key": "email/spoofed-display-name.eml",
+      "diskPath": "f/email/spoofed-display-name.eml",
+      "name": "spoofed-display-name.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "security",
+        "phishing",
+        "negative"
+      ],
+      "description": "A display name that reads as a trusted address while the real envelope address is something else entirely.",
+      "catches": "Phishing display. Any client that shows only the display name presents this as coming from support@yourbank.example, when the actual address is attacker@evil.example.test. The single most common real-world phishing pattern.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 410,
+      "mime": "message/rfc822",
+      "sha256": "6146a3fbb9e0c1c2effc36c6bc8396a1faddc2a87b36aaa536d350049c706762"
+    },
+    {
+      "key": "email/threaded-reply.eml",
+      "diskPath": "f/email/threaded-reply.eml",
+      "name": "threaded-reply.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "threading"
+      ],
+      "description": "A reply carrying In-Reply-To and a References chain four messages deep.",
+      "catches": "Conversation threading. Clients that thread on subject alone will group this wrongly; ones that ignore References will orphan it.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 551,
+      "mime": "message/rfc822",
+      "sha256": "93622a38599065bf45895c90078bdd1bb739898428d6c04737a0b06dd2b73863"
+    },
+    {
+      "key": "email/unicode-headers.eml",
+      "diskPath": "f/email/unicode-headers.eml",
+      "name": "unicode-headers.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "edge",
+        "unicode"
+      ],
+      "description": "Subject and display name encoded as RFC 2047 encoded-words (=?UTF-8?B?...?=) carrying CJK, Arabic and emoji.",
+      "catches": "Header decoding. A client that prints the raw =?UTF-8?B?...?= instead of the decoded text, or mangles the display name in a reply.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 427,
+      "mime": "message/rfc822",
+      "sha256": "b1fdce2f073aca773af37f6e5cfdac7e9c654199d488ed6ce264f0505a943ef7"
+    },
+    {
+      "key": "email/web-archive.mht",
+      "diskPath": "f/email/web-archive.mht",
+      "name": "web-archive.mht",
+      "category": "Email",
+      "format": "MHTML",
+      "tags": [
+        "email",
+        "valid",
+        "mhtml",
+        "archive"
+      ],
+      "description": "A MIME HTML archive: an HTML page and its image bundled into one multipart/related file, the format Outlook and Internet Explorer call a Web Archive.",
+      "catches": "MHTML handling. Same MIME container as email, which is why mail parsers often accept it and why it is a recurring vector for smuggling HTML past filters that only inspect the outer content type.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 689,
+      "mime": "multipart/related",
+      "sha256": "a8dd4b87835bd6d9f23ed72b6cee8197e45c2a465e1c452cc8a03f0238c52182"
+    },
+    {
+      "key": "email/winmail-tnef.eml",
+      "diskPath": "f/email/winmail-tnef.eml",
+      "name": "winmail-tnef.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "edge",
+        "outlook",
+        "attachment"
+      ],
+      "description": "A message carrying an application/ms-tnef part named winmail.dat, which is how Outlook wraps rich formatting and attachments when it uses TNEF.",
+      "catches": "The classic \"why did I receive winmail.dat\" bug. Catches clients that surface the TNEF blob as an unreadable attachment instead of decoding the attachments inside it.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 695,
+      "mime": "message/rfc822",
+      "sha256": "a788036cd4a5f4d46f0a658e914bc67e824c578b8527e8913df4f37a4caf4edb"
+    },
+    {
+      "key": "email/with-attachment.eml",
+      "diskPath": "f/email/with-attachment.eml",
+      "name": "with-attachment.eml",
+      "category": "Email",
+      "format": "EML",
+      "tags": [
+        "email",
+        "valid",
+        "attachment"
+      ],
+      "description": "multipart/mixed with a base64-encoded PNG attachment and a Content-Disposition filename.",
+      "catches": "Attachment extraction: base64 decoding, filename parsing, and handlers that assume every part is text.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 693,
+      "mime": "message/rfc822",
+      "sha256": "ca97de3ad84e6e15180a50d27b2a9195d4a77ea10f6fce7e3ae5ff6f47c3e3bf"
+    },
+    {
+      "key": "filename/.hidden-leading-dot",
+      "diskPath": "f/filename/.hidden-leading-dot",
+      "name": ".hidden-leading-dot",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Leading dot, no extension - hidden on POSIX.",
+      "catches": "Directory listings that filter dotfiles, and extension parsers that see an empty basename.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "application/octet-stream",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/🦊-emoji-name.txt",
+      "diskPath": "f/filename/🦊-emoji-name.txt",
+      "name": "🦊-emoji-name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Emoji (4-byte UTF-8, outside the BMP) in the filename.",
+      "catches": "Systems that store names as UTF-16 and count length in code units, or databases on utf8 rather than utf8mb4 - MySQL will reject or truncate this.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.txt",
+      "diskPath": "f/filename/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.txt",
+      "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A 204-character filename.",
+      "catches": "Filesystem limits (255 bytes on ext4, and 255 UTF-16 units on NTFS), plus database columns sized at VARCHAR(100) or VARCHAR(255) that truncate on insert.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/ampersand&name.txt",
+      "diskPath": "f/filename/ampersand&name.txt",
+      "name": "ampersand&name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "An ampersand in the filename.",
+      "catches": "Query-string construction and unescaped HTML rendering of the name.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/archive.tar.gz",
+      "diskPath": "f/filename/archive.tar.gz",
+      "name": "archive.tar.gz",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A legitimate compound extension.",
+      "catches": "The control case for the double-extension test: this one must be accepted.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "application/gzip",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/backslash\\name.txt",
+      "diskPath": "f/filename/backslash%5Cname.txt",
+      "name": "backslash\\name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A backslash in the filename.",
+      "catches": "Cross-platform path handling - Windows treats this as a directory separator, POSIX does not.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/CON.txt",
+      "diskPath": "f/filename/%40CON.txt",
+      "name": "CON.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A Windows reserved device name.",
+      "catches": "Windows cannot create files named CON, PRN, AUX, NUL, COM1-9 or LPT1-9, even with an extension. Extraction and download on Windows will fail unless the name is sanitised.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/dots.in.the.name.txt",
+      "diskPath": "f/filename/dots.in.the.name.txt",
+      "name": "dots.in.the.name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Multiple dots.",
+      "catches": "Extension detection that splits on the first dot rather than the last.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/double\"quote.txt",
+      "diskPath": "f/filename/double%22quote.txt",
+      "name": "double\"quote.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "An ASCII double quote in the filename.",
+      "catches": "Content-Disposition header construction - an unescaped quote terminates the filename parameter early and can inject further header directives.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/hash#name.txt",
+      "diskPath": "f/filename/hash#name.txt",
+      "name": "hash#name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A hash character in the filename.",
+      "catches": "URL handling - everything after # becomes a fragment and never reaches the server.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/invoice‮gnp.txt",
+      "diskPath": "f/filename/invoice‮gnp.txt",
+      "name": "invoice‮gnp.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Contains a right-to-left override (U+202E) so it renders as \"invoicetxt.png\".",
+      "catches": "A spoofing vector: the displayed name misrepresents the real extension. Filename display should strip or escape bidi control characters.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/nfc-café.txt",
+      "diskPath": "f/filename/nfc-café.txt",
+      "name": "nfc-café.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Precomposed Unicode (NFC): é is a single code point U+00E9.",
+      "catches": "Pair with the NFD file. They look identical but differ byte-for-byte, so dedupe and lookup by name must normalise first. macOS stores NFD, Linux stores what it is given.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/nfd-café.txt",
+      "diskPath": "f/filename/nfd-café.txt",
+      "name": "nfd-café.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Decomposed Unicode (NFD): é is e + U+0301 combining acute.",
+      "catches": "The other half of the normalisation pair.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/no-extension-at-all",
+      "diskPath": "f/filename/no-extension-at-all",
+      "name": "no-extension-at-all",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "No extension at all.",
+      "catches": "Type detection that depends on extension rather than content sniffing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "application/octet-stream",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/NUL.txt",
+      "diskPath": "f/filename/%40NUL.txt",
+      "name": "NUL.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Another Windows reserved device name.",
+      "catches": "Same as CON.txt - writes silently go to the null device on some Windows APIs.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/percent%20encoded.txt",
+      "diskPath": "f/filename/percent%20encoded.txt",
+      "name": "percent%20encoded.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A literal \"%20\" sequence in the filename.",
+      "catches": "Double-decoding bugs, where the stored name becomes \"percent encoded.txt\" after one decode too many.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/plus+name.txt",
+      "diskPath": "f/filename/plus+name.txt",
+      "name": "plus+name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A plus sign in the filename.",
+      "catches": "Form-encoded decoding that turns + into a space.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/question?name.txt",
+      "diskPath": "f/filename/question%3Fname.txt",
+      "name": "question?name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A question mark in the filename.",
+      "catches": "URL handling - everything after ? becomes a query string.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/report.pdf.exe",
+      "diskPath": "f/filename/report.pdf.exe",
+      "name": "report.pdf.exe",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Double extension where the real extension is last.",
+      "catches": "Blocklists that check only the first extension, and UI that truncates the displayed name and hides the dangerous suffix.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "application/vnd.microsoft.portable-executable",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/semicolon;name.txt",
+      "diskPath": "f/filename/semicolon;name.txt",
+      "name": "semicolon;name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A semicolon in the filename.",
+      "catches": "Content-Disposition parsing, where semicolon separates parameters.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/single'quote.txt",
+      "diskPath": "f/filename/single'quote.txt",
+      "name": "single'quote.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "An ASCII single quote in the filename.",
+      "catches": "SQL string building and unquoted shell arguments.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/spaces in name.txt",
+      "diskPath": "f/filename/spaces in name.txt",
+      "name": "spaces in name.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Spaces in the filename.",
+      "catches": "URL construction that forgets to percent-encode, and shell commands built by string concatenation.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/trailing-dot.txt.",
+      "diskPath": "f/filename/trailing-dot.txt%2E",
+      "name": "trailing-dot.txt.",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "A trailing dot after the extension.",
+      "catches": "Windows silently strips trailing dots, so this file can collide with trailing-dot.txt on save.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "application/octet-stream",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/UPPERCASE.TXT",
+      "diskPath": "f/filename/UPPERCASE.TXT",
+      "name": "UPPERCASE.TXT",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "All-caps name and extension.",
+      "catches": "Case-sensitivity mismatches between a case-insensitive dev machine (macOS, Windows) and a case-sensitive production filesystem (Linux) or object store (S3/R2 are case-sensitive).",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/файл-кириллица.txt",
+      "diskPath": "f/filename/файл-кириллица.txt",
+      "name": "файл-кириллица.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Cyrillic characters in the filename.",
+      "catches": "As above, with a different script.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "filename/日本語ファイル名.txt",
+      "diskPath": "f/filename/日本語ファイル名.txt",
+      "name": "日本語ファイル名.txt",
+      "category": "Filename edge cases",
+      "format": "TXT",
+      "tags": [
+        "filename",
+        "edge"
+      ],
+      "description": "Japanese characters in the filename.",
+      "catches": "Non-ASCII names require RFC 5987 filename* encoding in Content-Disposition; the plain filename parameter cannot carry them.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 142,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "fc489d07339b8e178a978a486b5527072e41f6454289d4d53fb2a3be7e4953dd"
+    },
+    {
+      "key": "folder/case-collision-dirs.zip",
+      "diskPath": "f/folder/case-collision-dirs.zip",
+      "name": "case-collision-dirs.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "case-sensitivity"
+      ],
+      "description": "Two sibling directories whose names differ only in case, each holding a different file.",
+      "catches": "Case sensitivity, at the directory level rather than the file level. On Linux you get two directories and two files. On Windows and default macOS the two merge into one directory holding both files, so a build that works on a developer laptop and fails in CI (or the reverse) has usually hit exactly this.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 486,
+      "mime": "application/zip",
+      "sha256": "13822c10204f1f63c8e33ef43df20210725cefbca65754e8fe36c0bab0e9141e"
+    },
+    {
+      "key": "folder/deep-path-over-260.zip",
+      "diskPath": "f/folder/deep-path-over-260.zip",
+      "name": "deep-path-over-260.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "path-length",
+        "windows"
+      ],
+      "description": "An archive whose innermost file sits at a path over 300 characters long, built from 30 nested directories.",
+      "catches": "The Windows path limit, which is lower for directories than for files. Without long-path support a process can create a file at a 259-character path but a directory only at 247, because MAX_PATH reserves twelve characters for an 8.3 name inside it. Extraction therefore fails while creating a folder rather than while writing a file, and leaves a half-extracted tree. Linux (4096 bytes) and macOS (1024 bytes) take this without complaint, so it only reproduces on Windows.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 11352,
+      "mime": "application/zip",
+      "sha256": "8b3de365e61d959c7deb2000aacc3868c845d21592ef5dfbf722eeb50ff4858e"
+    },
+    {
+      "key": "folder/empty-directory.zip",
+      "diskPath": "f/folder/empty-directory.zip",
+      "name": "empty-directory.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "empty",
+        "negative"
+      ],
+      "description": "An archive containing a directory with nothing in it, which can only be represented by an explicit directory entry.",
+      "catches": "Round-tripping. Extract this and re-zip it and most tools lose \"empty-on-purpose\" entirely, because they rebuild the archive from the files they found and an empty directory contains none. It is the standard way a backup or a sync client quietly drops a directory the application depended on existing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 395,
+      "mime": "application/zip",
+      "sha256": "0258bda2b3665effb82bee3ab210169fa0cec1a8399bc61980bf4600b3e7baef"
+    },
+    {
+      "key": "folder/explicit-dir-entries.zip",
+      "diskPath": "f/folder/explicit-dir-entries.zip",
+      "name": "explicit-dir-entries.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "directory-entries"
+      ],
+      "description": "An archive that declares its directories explicitly, as zero-length entries whose names end in a slash, alongside the files inside them.",
+      "catches": "Extractors that build directories only from file paths and ignore directory records, and any code that counts \"files in the archive\" without filtering out the directory entries. The entry count here is 7 but only 3 are files, so a naive count is wrong by more than double.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 868,
+      "mime": "application/zip",
+      "sha256": "6a760c7019a8c82678b7ce9c0f162968c0bcecf21023047ff336e452e6b5e3a0"
+    },
+    {
+      "key": "folder/reserved-and-awkward-dirs.zip",
+      "diskPath": "f/folder/reserved-and-awkward-dirs.zip",
+      "name": "reserved-and-awkward-dirs.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "reserved-names",
+        "windows"
+      ],
+      "description": "Directories named after Windows reserved devices, plus one ending in a dot and one ending in a space.",
+      "catches": "Reserved names used as DIRECTORIES rather than files, which is the case most sanitisers forget, and the two do not even fail the same way. On Windows, creating a directory called CON fails outright with error 267. Creating one called NUL reports SUCCESS and creates nothing at all, so an extractor that only checks the return value believes it worked. Trailing dots and spaces are a third case: the call succeeds and Windows hands back the trimmed name, so \"trailing-dot.\" and \"trailing-dot\" become one directory.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1282,
+      "mime": "application/zip",
+      "sha256": "7fab653ffe32d53a5ec3921dcc7c589e6e0a942e8f2de92cf3c7549483effb65"
+    },
+    {
+      "key": "folder/separator-confusion.zip",
+      "diskPath": "f/folder/separator-confusion.zip",
+      "name": "separator-confusion.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "separators",
+        "negative"
+      ],
+      "description": "Entry names containing a literal backslash, a doubled slash, a \".\" segment and a trailing-slash file, all of which are legal bytes that extractors interpret differently.",
+      "catches": "Separator handling. The ZIP spec makes \"/\" the only separator, so the backslash entry is one file whose name contains a backslash. Many extractors, including Python zipfile, treat it as a separator and hand you a directory instead. The doubled slash and the \".\" segment are the ones that let a path-traversal check be bypassed by normalising after validating rather than before.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 662,
+      "mime": "application/zip",
+      "sha256": "478fc2728e7182256dee9406fc5deb8a4f940b6ad1d5846799cd6a24f2a8f8bc"
+    },
+    {
+      "key": "folder/unicode-dir-names.zip",
+      "diskPath": "f/folder/unicode-dir-names.zip",
+      "name": "unicode-dir-names.zip",
+      "category": "Folders and paths",
+      "format": "ZIP",
+      "tags": [
+        "folder",
+        "archive",
+        "unicode",
+        "multibyte"
+      ],
+      "description": "Directory names in Japanese, Cyrillic and Greek, one made of emoji, and the same accented name in both Unicode normalization forms.",
+      "catches": "Multibyte path handling. Each Japanese character is three bytes in UTF-8 and each emoji is four, so these names are far longer in bytes than in characters, which is what a 255-byte limit actually measures. The two cafe directories are byte-different and look identical: on macOS they may collide into one, on Linux they stay separate, and a path comparison between them fails on every platform unless you normalise first.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1589,
+      "mime": "application/zip",
+      "sha256": "451a050f856e348efa890ef540dcc4a493bb6b6a1af3a8f304ce39e46a012de1"
+    },
+    {
+      "key": "font/qa-sans.ttf",
+      "diskPath": "f/font/qa-sans.ttf",
+      "name": "qa-sans.ttf",
+      "category": "Fonts",
+      "format": "TTF",
+      "tags": [
+        "font",
+        "valid",
+        "truetype"
+      ],
+      "description": "A minimal but genuinely valid TrueType font (\"QA Sans\") with 6 glyphs (.notdef, space, A, B, C, Q), the full required sfnt table set and correct checksums.",
+      "catches": "Font upload, parsing and preview. A real sfnt (cmap, glyf, head, hhea, hmtx, loca, maxp, name, post, OS/2) with valid checksums, generated from source so it carries no licensed typeface. Loads in fontTools and renders in PIL. Catches handlers that only sniff the extension or reject non-standard fonts.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 976,
+      "mime": "font/ttf",
+      "sha256": "d1f5a5853af23af5a1b61aa531f77cdc5cda94ccfe00f0473be0438bf7327284"
+    },
+    {
+      "key": "font/qa-sans.woff",
+      "diskPath": "f/font/qa-sans.woff",
+      "name": "qa-sans.woff",
+      "category": "Fonts",
+      "format": "WOFF",
+      "tags": [
+        "font",
+        "valid",
+        "webfont",
+        "woff"
+      ],
+      "description": "The same \"QA Sans\" font packaged as WOFF 1.0 - every sfnt table individually zlib-compressed behind a WOFF header and table directory.",
+      "catches": "@font-face loading and web-font pipelines. Because WOFF is a container, a handler that only checks the extension will happily accept a renamed TTF; this file starts with the real \"wOFF\" signature and decompresses cleanly in fontTools and every browser. Useful for testing font MIME types (font/woff) and CORS on cross-origin font requests.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 748,
+      "mime": "font/woff",
+      "sha256": "25bc662e7cc23e7c28d0f518f2442191dd98faafb6259e4da24546deea7d5bd5"
+    },
+    {
+      "key": "font/qa-sans.woff2",
+      "diskPath": "f/font/qa-sans.woff2",
+      "name": "qa-sans.woff2",
+      "category": "Fonts",
+      "format": "WOFF2",
+      "tags": [
+        "font",
+        "valid",
+        "webfont",
+        "woff2"
+      ],
+      "description": "The same \"QA Sans\" font as WOFF2: every table concatenated into a single Brotli stream behind a WOFF2 header and a variable-length table directory.",
+      "catches": "Modern @font-face delivery. WOFF2 is the format browsers actually prefer, and it is structurally unlike WOFF 1.0: one Brotli stream over all tables rather than per-table compression, with UIntBase128 lengths. Decompresses and parses in fontTools.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 456,
+      "mime": "font/woff2",
+      "sha256": "b317987f196d3143a3fc42d506b9700f49d4ccec2335910e4c220fa9013395ef"
+    },
+    {
+      "key": "geo/antimeridian.geojson",
+      "diskPath": "f/geo/antimeridian.geojson",
+      "name": "antimeridian.geojson",
+      "category": "Geospatial",
+      "format": "GeoJSON",
+      "tags": [
+        "geo",
+        "edge"
+      ],
+      "description": "A LineString and Polygon that cross the 180° antimeridian (longitudes near +180 and -180).",
+      "catches": "The classic map bug: renderers that draw a horizontal line all the way across the world instead of wrapping at the date line. Also catches bbox maths that assumes min<max longitude.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 592,
+      "mime": "application/geo+json",
+      "sha256": "b99aef5a88f6357dd081b6b9abce13070772029887c24cb474889fc637cd246d"
+    },
+    {
+      "key": "geo/malformed-coords.geojson",
+      "diskPath": "f/geo/malformed-coords.geojson",
+      "name": "malformed-coords.geojson",
+      "category": "Geospatial",
+      "format": "GeoJSON",
+      "tags": [
+        "geo",
+        "negative",
+        "malformed"
+      ],
+      "description": "GeoJSON that parses as JSON but violates the spec: a latitude of std 999 and a Polygon whose ring is not closed.",
+      "catches": "Validation beyond \"is it JSON\". A latitude above 90 and an unclosed polygon ring are both invalid per RFC 7946; a robust importer rejects or repairs them rather than plotting a point off the globe.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 682,
+      "mime": "application/geo+json",
+      "sha256": "2690623c7de41f9f981408447b5c589bf067c1635bb4fe7d8e29af7af5c057c8"
+    },
+    {
+      "key": "geo/placemarks.kml",
+      "diskPath": "f/geo/placemarks.kml",
+      "name": "placemarks.kml",
+      "category": "Geospatial",
+      "format": "KML",
+      "tags": [
+        "geo",
+        "valid",
+        "xml"
+      ],
+      "description": "A KML document with a Placemark point, a LineString path and a styled polygon.",
+      "catches": "Google Earth / Maps import and any KML parser. Includes a <Style> block, so it catches readers that render geometry but silently drop styling.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 508,
+      "mime": "application/vnd.google-earth.kml+xml",
+      "sha256": "ec08fd9db64a893d4c7a2274d48d0cfe08272f35534465791221683f676221ff"
+    },
+    {
+      "key": "geo/points.geojson",
+      "diskPath": "f/geo/points.geojson",
+      "name": "points.geojson",
+      "category": "Geospatial",
+      "format": "GeoJSON",
+      "tags": [
+        "geo",
+        "valid",
+        "json"
+      ],
+      "description": "A valid GeoJSON FeatureCollection with Point, LineString and Polygon features and properties.",
+      "catches": "Map ingestion and GIS import. Covers all three core geometry types plus a feature with mixed property types, so a viewer that only handles points will visibly drop the rest.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1262,
+      "mime": "application/geo+json",
+      "sha256": "99bd7b583968d210f1804002156f079c895c7bab473826aee2128b9c3554ade5"
+    },
+    {
+      "key": "geo/track.gpx",
+      "diskPath": "f/geo/track.gpx",
+      "name": "track.gpx",
+      "category": "Geospatial",
+      "format": "GPX",
+      "tags": [
+        "geo",
+        "valid",
+        "xml"
+      ],
+      "description": "A GPX 1.1 track with timestamped, elevation-tagged track points, plus a waypoint.",
+      "catches": "Fitness and mapping apps. Includes elevation and ISO-8601 timestamps, so it catches parsers that ignore <ele> or mishandle the timezone on <time>.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 596,
+      "mime": "application/gpx+xml",
+      "sha256": "a33e9e431f34ab79b1c7eb4ae6d1bc4cd59412cfa5eca6dddd6673a5f629dc68"
+    },
+    {
+      "key": "image/bmp-24bit.bmp",
+      "diskPath": "f/image/bmp-24bit.bmp",
+      "name": "bmp-24bit.bmp",
+      "category": "Images",
+      "format": "BMP",
+      "tags": [
+        "valid",
+        "legacy"
+      ],
+      "description": "128x128 uncompressed 24-bit BMP with bottom-up row order.",
+      "catches": "Decoders that ignore the negative-height convention and render BMPs vertically flipped. Also a size sanity check: uncompressed BMP is far larger than its PNG twin.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 49206,
+      "mime": "image/bmp",
+      "sha256": "01e674d234756a13da06a462f27a7d2f39a2179dfe304695c7fb8387f2a3acae"
+    },
+    {
+      "key": "image/fake-jpeg-is-executable.jpg",
+      "diskPath": "f/image/fake-jpeg-is-executable.jpg",
+      "name": "fake-jpeg-is-executable.jpg",
+      "category": "Images",
+      "format": "JPEG (spoofed)",
+      "tags": [
+        "security",
+        "mime-mismatch"
+      ],
+      "description": "A file named .jpg whose magic bytes are the DOS/PE \"MZ\" signature. Contains no executable code - just the header and filler.",
+      "catches": "Upload validation that trusts the file extension or the client-supplied Content-Type instead of sniffing actual magic bytes. This is the number one file-upload bypass.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2131,
+      "mime": "image/jpeg",
+      "sha256": "4ba83fec93b79c99a1d2f2be5e10620d7ca634766d5a783a8d9a7a19c47d610f"
+    },
+    {
+      "key": "image/favicon.ico",
+      "diskPath": "f/image/favicon.ico",
+      "name": "favicon.ico",
+      "category": "Images",
+      "format": "ICO",
+      "tags": [
+        "valid",
+        "icon"
+      ],
+      "description": "A 32x32 Windows ICO wrapping a PNG image (the modern ICO form).",
+      "catches": "Favicon and icon handling. ICO is a container format, not a single image - parsers that assume one image per file, or that cannot read a PNG-compressed entry, fail here.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 145,
+      "mime": "image/x-icon",
+      "sha256": "600217778af12052008c8d71781db93d7660a1021ebeb7ba87378ecc8a803d7f"
+    },
+    {
+      "key": "image/flat-96x96.webp",
+      "diskPath": "f/image/flat-96x96.webp",
+      "name": "flat-96x96.webp",
+      "category": "Images",
+      "format": "WEBP",
+      "tags": [
+        "image",
+        "valid",
+        "webp",
+        "lossless"
+      ],
+      "description": "A 96x96 lossless WEBP (VP8L) in a single flat colour, 32 bytes in total.",
+      "catches": "Modern image pipelines. WEBP is a RIFF container, so it starts \"RIFF\" like a WAV rather than with a signature of its own - the format name sits four bytes later, which signature checks routinely miss. Decodes in every current browser, Pillow and anything built on libwebp.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 32,
+      "mime": "image/webp",
+      "sha256": "b106293152970ea05fe1349ba69fc45509e1e9bd4a5b2fa0d8b2e109ee79bcf1"
+    },
+    {
+      "key": "image/gif-animated.gif",
+      "diskPath": "f/image/gif-animated.gif",
+      "name": "gif-animated.gif",
+      "category": "Images",
+      "format": "GIF",
+      "tags": [
+        "valid",
+        "animated"
+      ],
+      "description": "A looping animated GIF: four frames, 200 ms each, with a NETSCAPE2.0 loop block.",
+      "catches": "The animation case every static-image test misses. Catches thumbnailers that grab a black first frame, viewers that ignore frame delays, and pipelines that flatten to a single frame silently. Confirm your code reports frame count and honours the infinite-loop marker.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2409,
+      "mime": "image/gif",
+      "sha256": "1bbfaedc241b6979a270bc4aaf634406e775afcde1d65ab6ca440f3eab6cb545"
+    },
+    {
+      "key": "image/gif-static.gif",
+      "diskPath": "f/image/gif-static.gif",
+      "name": "gif-static.gif",
+      "category": "Images",
+      "format": "GIF",
+      "tags": [
+        "valid",
+        "palette"
+      ],
+      "description": "128x128 static GIF with a 4-colour palette and real LZW compression.",
+      "catches": "Palette/indexed-colour handling. A decoder that assumes truecolour input will mishandle the colour table; the LZW stream also exercises code that many \"image\" libraries delegate and rarely test.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 774,
+      "mime": "image/gif",
+      "sha256": "238bcf8798a3c67dcffbc88905cdf21f3b77dd2f0fcaec15924e654fd03f3480"
+    },
+    {
+      "key": "image/jpeg-baseline.jpg",
+      "diskPath": "f/image/jpeg-baseline.jpg",
+      "name": "jpeg-baseline.jpg",
+      "category": "Images",
+      "format": "JPEG",
+      "tags": [
+        "valid",
+        "baseline",
+        "lossy"
+      ],
+      "description": "256x256 baseline JPEG, 4:2:0 chroma subsampling, quality ~85, encoded from source.",
+      "catches": "The single most common image format, and one this corpus can now generate rather than fake. Baseline (not progressive) with real DCT and Huffman coding, so decoders and thumbnailers get a genuine JPEG to chew on. Being lossy, its pixels are close-but-not-identical to the PNG twin - useful for testing perceptual-diff thresholds.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2853,
+      "mime": "image/jpeg",
+      "sha256": "cd87b4048afdb864fad74f0ff409c81c844d0043a00870bafeb5685dd061722d"
+    },
+    {
+      "key": "image/jpeg-tiny-16px.jpg",
+      "diskPath": "f/image/jpeg-tiny-16px.jpg",
+      "name": "jpeg-tiny-16px.jpg",
+      "category": "Images",
+      "format": "JPEG",
+      "tags": [
+        "valid",
+        "edge",
+        "minimal"
+      ],
+      "description": "16x16 baseline JPEG - exactly one minimum coded unit.",
+      "catches": "Decoders with a minimum-dimension assumption, and thumbnail grids that break on an image smaller than the cell.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 774,
+      "mime": "image/jpeg",
+      "sha256": "5f0f9348ecd249a0e54cad079f44e4bc3f55a1aa74a8a5ce106e04450090a165"
+    },
+    {
+      "key": "image/no-extension",
+      "diskPath": "f/image/no-extension",
+      "name": "no-extension",
+      "category": "Images",
+      "format": "PNG (no extension)",
+      "tags": [
+        "edge",
+        "mime"
+      ],
+      "description": "A genuinely valid PNG with no file extension at all.",
+      "catches": "The mirror image of the case above: pipelines that route on extension will reject a perfectly good image. Content sniffing should accept this one.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 183,
+      "mime": "application/octet-stream",
+      "sha256": "c84d8425542305e68c674701ed5a8db2f4e6fe0045d8543be22ca3ddc0a88f40"
+    },
+    {
+      "key": "image/png-1x1.png",
+      "diskPath": "f/image/png-1x1.png",
+      "name": "png-1x1.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "edge",
+        "minimal"
+      ],
+      "description": "Single opaque pixel. The smallest valid PNG this corpus produces.",
+      "catches": "Aspect-ratio maths that divides by (width - 1), and crop logic that assumes an image is larger than its target box.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 70,
+      "mime": "image/png",
+      "sha256": "077158f9f77953e9b39eb582b999335adbd9af79e0ef9a76921243187682a937"
+    },
+    {
+      "key": "image/png-8000x8000.png",
+      "diskPath": "f/image/png-8000x8000.png",
+      "name": "png-8000x8000.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "large",
+        "decompression-bomb"
+      ],
+      "description": "8000x8000 PNG of flat colour. Compresses to a few hundred KB but expands to roughly 256 MB in memory.",
+      "catches": "Image processors with no pixel-count limit. A small download that OOMs the worker is the classic decompression-bomb denial of service. Pillow, for reference, warns above ~89M pixels.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 265089,
+      "mime": "image/png",
+      "sha256": "0818a806b978790eab13e286e98c069a739648bda085a1b74fa24cc6963e4d58"
+    },
+    {
+      "key": "image/png-alpha-gradient.png",
+      "diskPath": "f/image/png-alpha-gradient.png",
+      "name": "png-alpha-gradient.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "valid",
+        "alpha"
+      ],
+      "description": "256x256 PNG with a horizontal alpha ramp from fully transparent to fully opaque.",
+      "catches": "Thumbnailers that flatten alpha onto black instead of white, and format converters to JPEG that produce a black box where transparency was.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2229,
+      "mime": "image/png",
+      "sha256": "8e81decafe428a492142b1b04d1a63a32133f18f3e6393753f872c7a01a32c1d"
+    },
+    {
+      "key": "image/png-bad-crc.png",
+      "diskPath": "f/image/png-bad-crc.png",
+      "name": "png-bad-crc.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "corrupt",
+        "negative"
+      ],
+      "description": "Structurally complete PNG with a single corrupted byte inside the IDAT chunk CRC.",
+      "catches": "Decoders that skip CRC verification entirely. Useful for confirming your library actually validates integrity rather than assuming it.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1309,
+      "mime": "image/png",
+      "sha256": "10bcc5c930180c7276678fada6ab4bb9bb4768f559f2e942190fdb265e869c29"
+    },
+    {
+      "key": "image/png-interlaced.png",
+      "diskPath": "f/image/png-interlaced.png",
+      "name": "png-interlaced.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "interlace"
+      ],
+      "description": "PNG with the Adam7 interlace flag set in IHDR. Note: pixel data is stored non-interlaced, so strict decoders will reject it - that is intentional.",
+      "catches": "Decoders that trust the IHDR interlace byte without validating the IDAT layout, and pipelines that assume every PNG they receive is progressive-safe.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 426,
+      "mime": "image/png",
+      "sha256": "575ae26f4ac35073b117c5c03101ef1debdc8b1e1b34e58c5d856bc1e90e89a0"
+    },
+    {
+      "key": "image/png-truncated.png",
+      "diskPath": "f/image/png-truncated.png",
+      "name": "png-truncated.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "corrupt",
+        "negative"
+      ],
+      "description": "Valid PNG header and partial IDAT, cut off before IEND.",
+      "catches": "Decoders that return a half-drawn image rather than an error, and upload validators that only sniff the first 8 magic bytes.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 719,
+      "mime": "image/png",
+      "sha256": "5442ebef90a3212ce5fec1b88eb613bcf13ea075d7974af9bdd09700f3f45514"
+    },
+    {
+      "key": "image/png-valid-256.png",
+      "diskPath": "f/image/png-valid-256.png",
+      "name": "png-valid-256.png",
+      "category": "Images",
+      "format": "PNG",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "256x256 RGBA checkerboard, non-interlaced, 8-bit.",
+      "catches": "Baseline. A misrendered checkerboard makes stride and colour-order bugs obvious at a glance.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1309,
+      "mime": "image/png",
+      "sha256": "febec136e1589e5b7a53bfedddf957a01222b5722edb3735560e5d3ffebe134a"
+    },
+    {
+      "key": "image/svg-external-entity.svg",
+      "diskPath": "f/image/svg-external-entity.svg",
+      "name": "svg-external-entity.svg",
+      "category": "Images",
+      "format": "SVG",
+      "tags": [
+        "security",
+        "xxe"
+      ],
+      "description": "SVG with a DOCTYPE declaring an external entity pointing at a local file path.",
+      "catches": "SVG rasterisers backed by a full XML parser with entity resolution left on - a file-disclosure path (XXE) that image-processing code rarely gets audited for.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 273,
+      "mime": "image/svg+xml",
+      "sha256": "34cb8313af9e13289866d0db78d8173e91532750a8886345e6e637beefa0b53f"
+    },
+    {
+      "key": "image/svg-plain.svg",
+      "diskPath": "f/image/svg-plain.svg",
+      "name": "svg-plain.svg",
+      "category": "Images",
+      "format": "SVG",
+      "tags": [
+        "valid",
+        "vector"
+      ],
+      "description": "Clean SVG with shapes and text, no scripts or external references.",
+      "catches": "Baseline for the SVG sanitiser cases below - this one must survive sanitisation intact.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 303,
+      "mime": "image/svg+xml",
+      "sha256": "083bfde9c3ad9327b6d94c7337d66455717c543f2d765b3ad0a968188abcfcb0"
+    },
+    {
+      "key": "image/svg-with-script.svg",
+      "diskPath": "f/image/svg-with-script.svg",
+      "name": "svg-with-script.svg",
+      "category": "Images",
+      "format": "SVG",
+      "tags": [
+        "security",
+        "xss"
+      ],
+      "description": "SVG containing an inline <script> block and an onload attribute. The payload only calls console.log and sets document.title - it is inert and does not exfiltrate anything.",
+      "catches": "The single most commonly missed upload vulnerability: serving user-uploaded SVG from your own origin executes script in your security context. Your handler should either sanitise the markup or serve it with Content-Disposition: attachment and a restrictive CSP.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 457,
+      "mime": "image/svg+xml",
+      "sha256": "cda5b1d93e5c72c74f1f3444232e2b52a927757aa6e240bcf724a0748408d623"
+    },
+    {
+      "key": "image/tiff-rgb-be.tif",
+      "diskPath": "f/image/tiff-rgb-be.tif",
+      "name": "tiff-rgb-be.tif",
+      "category": "Images",
+      "format": "TIFF",
+      "tags": [
+        "image",
+        "valid",
+        "tiff",
+        "endianness"
+      ],
+      "description": "The same image written in Motorola (big-endian) byte order, which begins \"MM\" instead of \"II\".",
+      "catches": "Byte-order handling. TIFF is the mainstream format that can arrive in either endianness, and readers that assume little-endian silently misread every width, height and offset in the file.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 27828,
+      "mime": "image/tiff",
+      "sha256": "9a70f704da26587f4b667218071417b0c527aa9100b11776f27172f6f4fe2133"
+    },
+    {
+      "key": "image/tiff-rgb-le.tif",
+      "diskPath": "f/image/tiff-rgb-le.tif",
+      "name": "tiff-rgb-le.tif",
+      "category": "Images",
+      "format": "TIFF",
+      "tags": [
+        "image",
+        "valid",
+        "tiff"
+      ],
+      "description": "A baseline uncompressed 96x96 RGB TIFF in Intel (little-endian) byte order.",
+      "catches": "Scanning, OCR and print pipelines, where TIFF is still the interchange format. Uncompressed and single-strip, so it also exercises readers that only handle tiled or compressed TIFFs.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 27828,
+      "mime": "image/tiff",
+      "sha256": "ae49adf598e99a77c028f6fa7e64412e66a0608057a0f69094e3143ebd177720"
+    },
+    {
+      "key": "image/transparent-1x1.webp",
+      "diskPath": "f/image/transparent-1x1.webp",
+      "name": "transparent-1x1.webp",
+      "category": "Images",
+      "format": "WEBP",
+      "tags": [
+        "image",
+        "valid",
+        "webp",
+        "alpha",
+        "tiny"
+      ],
+      "description": "A 1x1 semi-transparent lossless WEBP, the smallest useful WEBP fixture.",
+      "catches": "Alpha handling and minimum-size assumptions. The alpha channel is half-opaque rather than fully on or off, so a pipeline that flattens transparency shows it immediately. Useful as a tracking-pixel or minimum-upload fixture in the format browsers prefer.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 32,
+      "mime": "image/webp",
+      "sha256": "643ed5e4ce28a95a6f079364243b6ce181b544d8b11f5a626d7831af3abb12b4"
+    },
+    {
+      "key": "json/deeply-nested-100000.json",
+      "diskPath": "f/json/deeply-nested-100000.json",
+      "name": "deeply-nested-100000.json",
+      "category": "Structured data",
+      "format": "JSON",
+      "tags": [
+        "dos",
+        "recursion"
+      ],
+      "description": "A single value wrapped in 100,000 levels of nested arrays. Only ~200 KB on disk.",
+      "catches": "Recursive-descent parsers that blow the stack. Note that the two most common runtimes do NOT fail here: V8 JSON.parse and CPython's C scanner are both iterative and accept 1M levels. What this does catch is recursive implementations - Go encoding/json before its depth cap, many Ruby and PHP libraries, pure-Python fallback scanners, and hand-rolled parsers. The property worth asserting is that your service returns a 400 with a depth-limit message rather than either a 500 or a successful parse of an absurd document.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 200002,
+      "mime": "application/json",
+      "sha256": "8d7bd09c0573c0c4d854b55795e2c3f1a781c2d4f2901de332a5cb8bab350e42"
+    },
+    {
+      "key": "json/large-array-100mb.json",
+      "diskPath": "f/json/large-array-100mb.json",
+      "name": "large-array-100mb.json",
+      "category": "Structured data",
+      "format": "JSON",
+      "tags": [
+        "large",
+        "performance"
+      ],
+      "description": "Roughly 100 MB single JSON array of ~400,000 uniform record objects.",
+      "catches": "Anything that calls JSON.parse on the whole body. Forces the switch to a streaming parser and exposes request-body size limits in API gateways.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 104857607,
+      "mime": "application/json",
+      "sha256": "b8a8cae3dd345e2c1c4e903e78a40876a21a20ae239e31cd00a43b1996c87f13"
+    },
+    {
+      "key": "json/malformed-trailing-comma.json",
+      "diskPath": "f/json/malformed-trailing-comma.json",
+      "name": "malformed-trailing-comma.json",
+      "category": "Structured data",
+      "format": "JSON",
+      "tags": [
+        "negative",
+        "malformed"
+      ],
+      "description": "JSON with a trailing comma before the closing brace - invalid per RFC 8259.",
+      "catches": "Error handling on config load. The failure message should name the file and the line, not surface a bare \"Unexpected token }\".",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 24,
+      "mime": "application/json",
+      "sha256": "d66c56297d3e2d3c7854ff366bccce90d007c64d890f21388bf0fc266a4219b9"
+    },
+    {
+      "key": "json/ndjson-10000-lines.ndjson",
+      "diskPath": "f/json/ndjson-10000-lines.ndjson",
+      "name": "ndjson-10000-lines.ndjson",
+      "category": "Structured data",
+      "format": "NDJSON",
+      "tags": [
+        "valid",
+        "streaming"
+      ],
+      "description": "Newline-delimited JSON, 10,000 records, one object per line.",
+      "catches": "Log-ingest and bulk-import paths. Line 5000 contains an embedded \\n inside a string value - splitting on raw newlines rather than parsing will corrupt exactly that record.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 669861,
+      "mime": "application/x-ndjson",
+      "sha256": "baf8acced4ee3f7087b0a5261b9f5dadb6908c46062b71711ee06a155e4a0f54"
+    },
+    {
+      "key": "json/precision-loss.json",
+      "diskPath": "f/json/precision-loss.json",
+      "name": "precision-loss.json",
+      "category": "Structured data",
+      "format": "JSON",
+      "tags": [
+        "edge",
+        "numeric"
+      ],
+      "description": "Integers and decimals that exceed IEEE-754 double precision: 64-bit IDs, high-precision decimals, and values at MAX_SAFE_INTEGER boundaries.",
+      "catches": "The classic JavaScript bug where a 64-bit database ID arrives as 9007199254740992 instead of ...993. Any client parsing this into a double corrupts the values silently. Correct handling means parsing large integers as strings or BigInt.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 319,
+      "mime": "application/json",
+      "sha256": "7075086fd6d6809ccd379203d3d4f803c22d4c44593b109f0032b1a8b9ba2e08"
+    },
+    {
+      "key": "json/valid-small.json",
+      "diskPath": "f/json/valid-small.json",
+      "name": "valid-small.json",
+      "category": "Structured data",
+      "format": "JSON",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "Well-formed JSON object with nested arrays, nulls, booleans, unicode and escaped characters.",
+      "catches": "Baseline. Covers every scalar type plus escaping in one small file.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 382,
+      "mime": "application/json",
+      "sha256": "9f03d9acaf3a05e29965226b4f1b874463c5ebfbd00a70c95a2de3a5b6785a5f"
+    },
+    {
+      "key": "office/corrupt-missing-content-types.docx",
+      "diskPath": "f/office/corrupt-missing-content-types.docx",
+      "name": "corrupt-missing-content-types.docx",
+      "category": "Office documents",
+      "format": "DOCX",
+      "tags": [
+        "office",
+        "corrupt",
+        "negative"
+      ],
+      "description": "A DOCX-shaped ZIP that is missing its [Content_Types].xml part.",
+      "catches": "Openers that assume any ZIP with a word/ folder is a valid document. A spec-compliant reader rejects this because the package has no content-type map.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 577,
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "6de45712c47ec56fa5f14b701827e2ee7a6adf7296ec3e8a5657af63babe5b2a"
+    },
+    {
+      "key": "office/document.docx",
+      "diskPath": "f/office/document.docx",
+      "name": "document.docx",
+      "category": "Office documents",
+      "format": "DOCX",
+      "tags": [
+        "office",
+        "valid",
+        "ooxml"
+      ],
+      "description": "Word document (OOXML) with a heading and two paragraphs.",
+      "catches": "A minimal but valid DOCX built from source as a ZIP of XML parts. Opens in the corresponding application; use it to exercise upload, parsing and preview without shipping a real document. Also checks that your MIME sniffing recognises a .docx as a ZIP-based OOXML package rather than mislabelling it application/zip.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1082,
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "08deccf7b4eb6de82226463b72076dbefbc7fcc89b1c691ed5a83a5db349954c"
+    },
+    {
+      "key": "office/document.odt",
+      "diskPath": "f/office/document.odt",
+      "name": "document.odt",
+      "category": "Office documents",
+      "format": "ODT",
+      "tags": [
+        "office",
+        "valid",
+        "opendocument"
+      ],
+      "description": "OpenDocument Text with the mandatory uncompressed \"mimetype\" entry stored first.",
+      "catches": "ODF readers sniff the type from the first, uncompressed archive entry. Extractors or repackagers that re-compress or reorder entries break that - this file is the control for that behaviour.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 853,
+      "mime": "application/vnd.oasis.opendocument.text",
+      "sha256": "b59417f44b6996fd6c611bd8611b0a3c48f2e07f8b94cfb6fa55ee4a12bcaf18"
+    },
+    {
+      "key": "office/formula-injection.xlsx",
+      "diskPath": "f/office/formula-injection.xlsx",
+      "name": "formula-injection.xlsx",
+      "category": "Office documents",
+      "format": "XLSX",
+      "tags": [
+        "office",
+        "security",
+        "csv-injection"
+      ],
+      "description": "Workbook whose cells contain =, +, - and @ prefixed strings and a HYPERLINK formula.",
+      "catches": "The XLSX cousin of CSV formula injection. When an app re-exports these cells to CSV, or a spreadsheet opens them, the payloads (all inert - a harmless calculation and a link) can execute. Confirm your export path escapes them.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1733,
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "f3a7e7c4d1b67e339a5e918da7a81a3ac6bdb52f9581f63586774e1dcf8ed10b"
+    },
+    {
+      "key": "office/legacy-workbook.xls",
+      "diskPath": "f/office/legacy-workbook.xls",
+      "name": "legacy-workbook.xls",
+      "category": "Office documents",
+      "format": "XLS",
+      "tags": [
+        "office",
+        "valid",
+        "legacy",
+        "biff8",
+        "excel"
+      ],
+      "description": "A real legacy Excel 97-2003 workbook: BIFF8 records inside an OLE2 compound file, with two sheets, numbers, and text held in a shared string table.",
+      "catches": "Code that treats .xls and .xlsx as the same thing. They share nothing structurally - .xlsx is a ZIP of XML starting with PK, .xls is an OLE2 compound document starting with D0 CF 11 E0, and a reader for one cannot open the other. Also catches importers that only accept the modern format, and signature checks that map the OLE2 magic to Word. Opens in Excel, LibreOffice, xlrd and pandas.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 3584,
+      "mime": "application/vnd.ms-excel",
+      "sha256": "e4ddabb0ba6f10493b909d5f3be09e70c94f622d6b97c9d12664c6527f33294e"
+    },
+    {
+      "key": "office/macro-enabled.xlsm",
+      "diskPath": "f/office/macro-enabled.xlsm",
+      "name": "macro-enabled.xlsm",
+      "category": "Office documents",
+      "format": "XLSM",
+      "tags": [
+        "office",
+        "macro",
+        "security"
+      ],
+      "description": "Macro-enabled workbook structure with an inert VBA project placeholder (no executable code).",
+      "catches": "Upload policies that must treat .xlsm differently from .xlsx because it can carry macros. The vbaProject.bin here is a harmless text placeholder, but the container is a genuine macro-enabled package your scanner should flag.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1879,
+      "mime": "application/vnd.ms-excel.sheet.macroEnabled.12",
+      "sha256": "f6ec219c93f337cc21e5cca02e3cd2a6928811c9a61e824b80c972306380c8b0"
+    },
+    {
+      "key": "office/presentation.odp",
+      "diskPath": "f/office/presentation.odp",
+      "name": "presentation.odp",
+      "category": "Office documents",
+      "format": "ODP",
+      "tags": [
+        "office",
+        "valid"
+      ],
+      "description": "A two-slide OpenDocument presentation built from source, with a title frame and a bullet list.",
+      "catches": "The third OpenDocument type, which importers routinely forget. Handlers that accept .odt and .ods often reject .odp, or sniff it as a plain ZIP, because its mimetype part is the one nobody added to the allowlist.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 951,
+      "mime": "application/vnd.oasis.opendocument.presentation",
+      "sha256": "b43b1246da01efa0e6c7dd86ec3c2a1c6eb1da6c201ebc4f66f68923e293ba8e"
+    },
+    {
+      "key": "office/presentation.pptx",
+      "diskPath": "f/office/presentation.pptx",
+      "name": "presentation.pptx",
+      "category": "Office documents",
+      "format": "PPTX",
+      "tags": [
+        "office",
+        "valid",
+        "ooxml"
+      ],
+      "description": "PowerPoint presentation with a slide master, layout and one titled slide.",
+      "catches": "A minimal but valid PPTX built from source as a ZIP of XML parts. Opens in the corresponding application; use it to exercise upload, parsing and preview without shipping a real document. PPTX is the strictest of the three - it needs a slide master and layout - so it catches thumbnailers that assume every OOXML file is flat.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 3790,
+      "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "sha256": "918c7c135ed89f8b0f662d1ead1bfeb7c5b75a94f2e5e6ca4d4a4aa347a6c35f"
+    },
+    {
+      "key": "office/spreadsheet.ods",
+      "diskPath": "f/office/spreadsheet.ods",
+      "name": "spreadsheet.ods",
+      "category": "Office documents",
+      "format": "ODS",
+      "tags": [
+        "office",
+        "valid",
+        "opendocument"
+      ],
+      "description": "OpenDocument Spreadsheet with a small table and the stored-first mimetype entry.",
+      "catches": "The spreadsheet counterpart of the ODT case, plus a table structure for import testing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 878,
+      "mime": "application/vnd.oasis.opendocument.spreadsheet",
+      "sha256": "3ceb50ee098eec9e9d27179e972e375ed504bb9262c24b1ccb3b3c02038a0525"
+    },
+    {
+      "key": "office/spreadsheet.xlsx",
+      "diskPath": "f/office/spreadsheet.xlsx",
+      "name": "spreadsheet.xlsx",
+      "category": "Office documents",
+      "format": "XLSX",
+      "tags": [
+        "office",
+        "valid",
+        "ooxml"
+      ],
+      "description": "Excel workbook with a header row, data rows, and a live SUM formula.",
+      "catches": "A minimal but valid XLSX built from source as a ZIP of XML parts. Opens in the corresponding application; use it to exercise upload, parsing and preview without shipping a real document. The formula cell (with a cached value) catches importers that read <v> but ignore <f>, or vice versa.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1726,
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "ad3641fda07651acf26ca9bbaea3d2ad56358ae560768524b2d4d3b5b3310dae"
+    },
+    {
+      "key": "pack/archive-security-pack.zip",
+      "diskPath": "f/pack/archive-security-pack.zip",
+      "name": "archive-security-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "The archives an extractor has to survive: Zip Slip path traversal, an absolute-path entry, ten levels of nesting, a deliberately modest decompression bomb, non-ASCII entry names, a damaged central directory, plus clean TAR, GZIP and 7z controls.",
+      "catches": "Extraction code. Most of it resolves entry paths against the destination without checking the result is still inside it, and trusts the uncompressed sizes written in the archive, both of which are attacker-controlled. Extract this pack into a disposable directory and check nothing escaped it.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 12099,
+      "mime": "application/zip",
+      "sha256": "6a8abb8745b41e060a83b153754301ed4508038166b881028c37b64bdbe6ab23",
+      "packOf": 13
+    },
+    {
+      "key": "pack/document-parser-pack.zip",
+      "diskPath": "f/pack/document-parser-pack.zip",
+      "name": "document-parser-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "Real documents in every common office format, including a legacy .xls that is an OLE2 compound file rather than a ZIP, plus the deliberately damaged ones: a PDF with a corrupt xref table, a truncated PDF, a DOCX missing its content-types part and an EPUB with a broken container.",
+      "catches": "Document converters, text extractors, preview generators and import pipelines. The valid files prove the happy path; the damaged ones prove your error handling exists, because every one of them passes an extension check and a signature check and only fails when something actually parses it.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 34153,
+      "mime": "application/zip",
+      "sha256": "3f21ca09dbcbfe0f6fbb1eda5c1dd9e01a382288bae7c9162193948b25ac7375",
+      "packOf": 15
+    },
+    {
+      "key": "pack/email-parser-pack.zip",
+      "diskPath": "f/pack/email-parser-pack.zip",
+      "name": "email-parser-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "All 19 email fixtures: RFC 5322 .eml as Gmail, Thunderbird and Outlook export it, a real Outlook .msg written as an OLE2 compound file, an Apple Mail .emlx, a Unix mbox and an MHTML web archive, covering folded headers, encoded words, quoted-printable, inline images, attachments and spoofed senders.",
+      "catches": "Mail importers, archivers, ticketing systems and migration tooling. Every address is on the reserved example.test domain and every person in them is invented, so nothing can be delivered anywhere and no real personal data is involved.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 19489,
+      "mime": "application/zip",
+      "sha256": "7021a5cfb50bd7d3207f78b069e645d3aff9e6b516b1c5bccec4a50974ff581c",
+      "packOf": 19
+    },
+    {
+      "key": "pack/encoding-unicode-pack.zip",
+      "diskPath": "f/pack/encoding-unicode-pack.zip",
+      "name": "encoding-unicode-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "Text in UTF-8 with and without a BOM, UTF-16 in both byte orders, Latin-1, CRLF and LF line endings, zero-width and right-to-left characters, both Unicode normalization forms, a CSV whose BOM poisons the first column, an email with RFC 2047 encoded headers and an archive with non-ASCII entry names.",
+      "catches": "Importers, parsers and anything that stores user text. Run the pack through your ingest path and check that every file comes out as the same characters it went in as. The failures are silent by nature, so they have to be looked for deliberately.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 11082,
+      "mime": "application/zip",
+      "sha256": "bb68c46f4568443b6320e7113aad8fdeb2edab6b36904fd95cf9c831b2ab50e6",
+      "packOf": 17
+    },
+    {
+      "key": "pack/filename-compatibility-pack.zip",
+      "diskPath": "f/pack/filename-compatibility-pack.zip",
+      "name": "filename-compatibility-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "All 26 filename edge cases in one archive: reserved Windows device names, trailing dots and spaces, path separators, quotes, Unicode in several scripts, both normalization forms, a right-to-left override, a 200-character name and one with no extension at all.",
+      "catches": "Anything that moves files between operating systems: sync clients, backup tools, archive extractors, upload forms and object-storage adapters. Extract this archive on Windows, macOS and Linux and compare what survives. The differences are the bugs.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 13300,
+      "mime": "application/zip",
+      "sha256": "9c63d68a8b7d98d962a035a78f1bae2adb129a61e9872051ad8accd96984aba0",
+      "packOf": 26
+    },
+    {
+      "key": "pack/image-pipeline-pack.zip",
+      "diskPath": "f/pack/image-pipeline-pack.zip",
+      "name": "image-pipeline-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "PNG, JPEG, GIF, animated GIF, BMP, ICO, TIFF in both byte orders, lossless WEBP and SVG, plus a PNG with a deliberately wrong CRC, a truncated PNG, an 8000x8000 decompression risk, a spoofed JPEG and an SVG carrying a script.",
+      "catches": "Thumbnailers, converters and upload pipelines. The interesting failures are a decoder that allocates width times height before checking anything, a signature check that only reads four bytes, and treating SVG as an image rather than as executable XML.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 53497,
+      "mime": "application/zip",
+      "sha256": "ef337de9f5dbec0b521ca653372535de5f75bbf3b5a92e9c6100fa5ff77c4a15",
+      "packOf": 17
+    },
+    {
+      "key": "pack/rag-test-corpus.zip",
+      "diskPath": "f/pack/rag-test-corpus.zip",
+      "name": "rag-test-corpus.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "Nine documents about one invented company, in PDF, Word, Excel, HTML, email and Markdown. Each hides at least one fact behind a real extraction problem: columns drawn row by row, a sentence split by a page break, a footnote that overrides the body, a two-row spreadsheet header, text hidden by CSS, an answer that only survives in a quoted reply, a stale near-duplicate and Word splitting numbers across runs. Ships with a 15-question answer key in eval JSONL and a plain-text control.",
+      "catches": "RAG ingestion: loaders, chunkers and retrievers. Most retrieval failures are extraction failures, where the text was never read correctly and the chunk holding the answer never existed. Run the answer key against the corpus, then against the control, and the gap between the two is what extraction is costing you.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 17329,
+      "mime": "application/zip",
+      "sha256": "b615b69e96935cd6476b00af1f229814d5a7f6daf1519bfb74c93d595f5b6de9",
+      "packOf": 11
+    },
+    {
+      "key": "pack/structured-data-pack.zip",
+      "diskPath": "f/pack/structured-data-pack.zip",
+      "name": "structured-data-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "Valid baselines in five formats plus the ones that break parsers: quoted commas and embedded newlines in CSV, a BOM on the header row, formula injection, JSON with trailing commas and integers past 2^53, 100,000 levels of nesting, XML entity expansion and external-entity disclosure, and the YAML Norway problem.",
+      "catches": "Import pipelines and API request handling. Every valid file should round-trip exactly; every hostile one should be rejected with a specific error rather than accepted, hung on, or crashed.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 42217,
+      "mime": "application/zip",
+      "sha256": "d2c89d98b02cea51e48b8faaec96e9ae5f5757b515859f4ff16d83e9a16a645d",
+      "packOf": 14
+    },
+    {
+      "key": "pack/upload-torture-pack.zip",
+      "diskPath": "f/pack/upload-torture-pack.zip",
+      "name": "upload-torture-pack.zip",
+      "category": "Test packs",
+      "format": "Test pack",
+      "tags": [
+        "pack",
+        "bundle",
+        "zip"
+      ],
+      "description": "The fixtures behind the 12-step upload validation checklist: size extremes, filename traps, a spoofed content type, a file whose header is fine and body is not, archive path traversal, a decompression bomb, an SVG carrying a script, and a polyglot.",
+      "catches": "Upload pipelines that check the extension and the client-supplied MIME type and nothing else. Run the whole pack through your endpoint: every file should be either accepted and stored safely, or rejected with a specific error. Anything accepted silently is a finding.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1068037,
+      "mime": "application/zip",
+      "sha256": "ccdfb70856e375153309efea81762f6c4d680aae8237d6d2b51aba9a963d08fe",
+      "packOf": 22
+    },
+    {
+      "key": "pdf/corrupt-xref.pdf",
+      "diskPath": "f/pdf/corrupt-xref.pdf",
+      "name": "corrupt-xref.pdf",
+      "category": "Documents",
+      "format": "PDF",
+      "tags": [
+        "corrupt",
+        "negative"
+      ],
+      "description": "Valid PDF body with a deliberately wrong startxref offset, so the cross-reference table cannot be located.",
+      "catches": "Parsers that crash or hang instead of falling back to a full-file object scan. Most real-world \"damaged PDF\" reports look exactly like this.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 720,
+      "mime": "application/pdf",
+      "sha256": "bd5efc3d6ec6afa54aec7d16a763577239ce2e1fda8636bea12497b4d9046f32"
+    },
+    {
+      "key": "pdf/empty-zero-pages.pdf",
+      "diskPath": "f/pdf/empty-zero-pages.pdf",
+      "name": "empty-zero-pages.pdf",
+      "category": "Documents",
+      "format": "PDF",
+      "tags": [
+        "edge",
+        "negative"
+      ],
+      "description": "Structurally valid PDF whose /Pages node declares /Count 0 and an empty /Kids array.",
+      "catches": "Renderers and page-splitters that assume at least one page exists and divide by page count.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 430,
+      "mime": "application/pdf",
+      "sha256": "c9ff80b477c10ff11270c788b35152f7d5f7147c288d7c1d051dd19bca1b8253"
+    },
+    {
+      "key": "pdf/no-text-layer.pdf",
+      "diskPath": "f/pdf/no-text-layer.pdf",
+      "name": "no-text-layer.pdf",
+      "category": "Documents",
+      "format": "PDF",
+      "tags": [
+        "ocr",
+        "accessibility"
+      ],
+      "description": "PDF whose only page draws vector rectangles and contains zero text operators.",
+      "catches": "Text-extraction pipelines that silently return an empty string instead of flagging that OCR is required. Also an accessibility failure case: no reading order for screen readers.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1698,
+      "mime": "application/pdf",
+      "sha256": "b061ce1d9945d157fe3cd86249309776b9d438fbc55f16f5b56a041971d91224"
+    },
+    {
+      "key": "pdf/truncated.pdf",
+      "diskPath": "f/pdf/truncated.pdf",
+      "name": "truncated.pdf",
+      "category": "Documents",
+      "format": "PDF",
+      "tags": [
+        "corrupt",
+        "negative",
+        "upload"
+      ],
+      "description": "A valid PDF cut off at 60% of its length, simulating an interrupted upload.",
+      "catches": "Upload handlers that accept a partial file because the magic bytes matched the first 5 bytes. Validate the trailer, not just the header.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1394,
+      "mime": "application/pdf",
+      "sha256": "a0975aad80c61f7b47103d04c4143122aa1a48da51d0c7fe74772f3af3479d7b"
+    },
+    {
+      "key": "pdf/valid-1page.pdf",
+      "diskPath": "f/pdf/valid-1page.pdf",
+      "name": "valid-1page.pdf",
+      "category": "Documents",
+      "format": "PDF",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "Minimal well-formed single-page PDF 1.4 with selectable Helvetica text.",
+      "catches": "Your happy-path baseline. If this fails, the problem is your pipeline, not the file.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 750,
+      "mime": "application/pdf",
+      "sha256": "84e95ec0084af11ba5ddee05e2a6755a46124912b65e1378ff80bc1e119609ec"
+    },
+    {
+      "key": "pdf/valid-500pages.pdf",
+      "diskPath": "f/pdf/valid-500pages.pdf",
+      "name": "valid-500pages.pdf",
+      "category": "Documents",
+      "format": "PDF",
+      "tags": [
+        "valid",
+        "large",
+        "pagination"
+      ],
+      "description": "Well-formed PDF with 500 numbered pages.",
+      "catches": "Viewers that render every page eagerly instead of lazily, thumbnail jobs that time out, and page-count parsers that stop at the first /Count.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 264642,
+      "mime": "application/pdf",
+      "sha256": "a950f538dcb5480d277dd180a38ee00dfd827a6f1e2b1d34c72fd3ce0a618a25"
+    },
+    {
+      "key": "rag/answers.jsonl",
+      "diskPath": "f/rag/answers.jsonl",
+      "name": "answers.jsonl",
+      "category": "RAG test corpus",
+      "format": "JSONL",
+      "tags": [
+        "rag",
+        "llm",
+        "eval",
+        "answer-key"
+      ],
+      "description": "The answer key: 15 questions in eval JSONL, each with the expected answer, accepted variants, source file, trap name, evidence, and the wrong answer the trap tends to produce.",
+      "catches": "Load it as an eval dataset. Never index it: it contains every answer.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 4793,
+      "mime": "application/jsonl; charset=utf-8",
+      "sha256": "259e7220105d6fbace255dbe03a6e9c17b1ef010c11b3a78fa200c5d56138364"
+    },
+    {
+      "key": "rag/baseline/all-facts.txt",
+      "diskPath": "f/rag/baseline/all-facts.txt",
+      "name": "all-facts.txt",
+      "category": "RAG test corpus",
+      "format": "Text",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "Every fact in the corpus as one plain sentence each, with its source file. The control.",
+      "catches": "Index this alone and run the answer key against it. If this scores well and rag/corpus/ does not, the model is fine and the extraction is what is failing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1488,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "c2df6752bd0dc9ec5022b19655969e86192d7412f3f6b745e9a04b75578edc52"
+    },
+    {
+      "key": "rag/corpus/firmware-3.1-notes-v1.md",
+      "diskPath": "f/rag/corpus/firmware-3.1-notes-v1.md",
+      "name": "firmware-3.1-notes-v1.md",
+      "category": "RAG test corpus",
+      "format": "Markdown",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "Superseded release notes, nearly identical to v2 but with the old default sample interval (10 seconds).",
+      "catches": "Near-duplicate retrieval: both versions score almost identically for the question, and only the front matter says which is current. Pair with firmware-3.1-notes-v2.md.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 491,
+      "mime": "text/markdown; charset=utf-8",
+      "sha256": "1cfe9656befc9baf977d1f99b24f8ec434e6083b217c36b2ab40bf84c3a49d3b"
+    },
+    {
+      "key": "rag/corpus/firmware-3.1-notes-v2.md",
+      "diskPath": "f/rag/corpus/firmware-3.1-notes-v2.md",
+      "name": "firmware-3.1-notes-v2.md",
+      "category": "RAG test corpus",
+      "format": "Markdown",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "The current release notes: status current, supersedes v1, default sample interval 5 seconds.",
+      "catches": "The correct source for the sample interval. A pipeline that drops front matter cannot tell it from v1.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 524,
+      "mime": "text/markdown; charset=utf-8",
+      "sha256": "7d2d3e7ade70d33b3087a29505c5be24224abd510270677aaf99e5a8cc5578aa"
+    },
+    {
+      "key": "rag/corpus/k2-specification.pdf",
+      "diskPath": "f/rag/corpus/k2-specification.pdf",
+      "name": "k2-specification.pdf",
+      "category": "RAG test corpus",
+      "format": "PDF",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A specification sheet whose small-print footnote overrides the operating temperature in the body.",
+      "catches": "Retrieval returns the spec line (50 degrees C) without the footnote (40 degrees C for older serials), especially where small type or page furniture is filtered out.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1575,
+      "mime": "application/pdf",
+      "sha256": "72ff4ce10fda63fcd89f24b6552b3753781d08656f0f7d1edb9e9d89696ab9ea"
+    },
+    {
+      "key": "rag/corpus/price-list.xlsx",
+      "diskPath": "f/rag/corpus/price-list.xlsx",
+      "name": "price-list.xlsx",
+      "category": "RAG test corpus",
+      "format": "XLSX",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A price list with a two-row header: \"Price (EUR)\" merged over \"Net\" and \"Gross incl. 19% VAT\".",
+      "catches": "Loaders that take row 1 as the header (pandas read_excel default) name the gross column \"Unnamed: 2\" and read the sub-header row as data, so a question about the gross price often returns the net one.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1854,
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "a731809af39849d2cf008dfc9fc55ce7b4b6871323ebc855b1785c6aad507919"
+    },
+    {
+      "key": "rag/corpus/product-sheet-two-column.pdf",
+      "diskPath": "f/rag/corpus/product-sheet-two-column.pdf",
+      "name": "product-sheet-two-column.pdf",
+      "category": "RAG test corpus",
+      "format": "PDF",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A two-column PDF whose columns are drawn row by row, so the content stream alternates between the columns.",
+      "catches": "Extraction that follows content stream order (pdftotext -raw, for one) interleaves the warranty and returns sentences line by line. Layout-aware extraction (pdftotext in its default mode) keeps them apart.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1654,
+      "mime": "application/pdf",
+      "sha256": "118fa3e8a809640884399c1e2ea58943c4e4d28892270c112a7f435b2ea63947"
+    },
+    {
+      "key": "rag/corpus/service-manual.docx",
+      "diskPath": "f/rag/corpus/service-manual.docx",
+      "name": "service-manual.docx",
+      "category": "RAG test corpus",
+      "format": "DOCX",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A Word document whose numbers and part codes are split across text runs, as Word does after editing.",
+      "catches": "Concatenating runs gives \"every 12 months\" and \"QM-CAL-KIT\". Any extractor that puts a space or newline between runs gives \"every 1 2 months\" and \"QM- CAL- KIT\".",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1199,
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "sha256": "8f195ed4250601a75a7cf7016fc94262a04bbaa942e26ea3ebb49c73421c6a60"
+    },
+    {
+      "key": "rag/corpus/staff-handbook.pdf",
+      "diskPath": "f/rag/corpus/staff-handbook.pdf",
+      "name": "staff-handbook.pdf",
+      "category": "RAG test corpus",
+      "format": "PDF",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A two-page PDF where the on-call allowance sentence starts on page 1 and its amount is on page 2.",
+      "catches": "Page-level chunking separates \"an on-call allowance of\" from \"EUR 42 per weekend\", with the page footer and next page header in between. Neither chunk answers the question on its own.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 2697,
+      "mime": "application/pdf",
+      "sha256": "34ba408fc3be89eef244b453d939b7da06c8f72ec4728ccab3e7fa865a2fc452"
+    },
+    {
+      "key": "rag/corpus/support-faq.html",
+      "diskPath": "f/rag/corpus/support-faq.html",
+      "name": "support-faq.html",
+      "category": "RAG test corpus",
+      "format": "HTML",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A support page carrying an old notice hidden by a CSS rule, contradicting the visible support hours.",
+      "catches": "Tag-stripping extraction (BeautifulSoup get_text, for one) keeps the hidden notice. Only an extractor that applies CSS, such as a browser's innerText, drops it.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1111,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "aa7900c6c7c07e4c6167da3a88bc2513eff0b91380fce6f91f9095abf216382f"
+    },
+    {
+      "key": "rag/corpus/support-thread.eml",
+      "diskPath": "f/rag/corpus/support-thread.eml",
+      "name": "support-thread.eml",
+      "category": "RAG test corpus",
+      "format": "EML",
+      "tags": [
+        "rag",
+        "llm",
+        "eval"
+      ],
+      "description": "A support reply whose only statement of the battery voltage is inside the quoted earlier message.",
+      "catches": "Quote stripping, used to de-duplicate email threads, removes the one line that answers the question and leaves \"the voltage in my earlier reply is still correct\".",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1061,
+      "mime": "message/rfc822",
+      "sha256": "e2dad9e9b2604d82cd2277bf46bd08433da58cbcb7d2364c499b5a4e70ad302b"
+    },
+    {
+      "key": "security/eicar.com.txt",
+      "diskPath": "f/security/eicar.com.txt",
+      "name": "eicar.com.txt",
+      "category": "Security and validation",
+      "format": "TXT",
+      "tags": [
+        "antivirus",
+        "eicar",
+        "flagged"
+      ],
+      "description": "The EICAR Standard Anti-Virus Test File: a 68-byte printable-ASCII string that every mainstream scanner is required to detect as if it were malware. It is not malware and contains no malicious code - it is a harmless COM program that prints a message.",
+      "catches": "Whether your antivirus integration is actually wired up. Upload this and confirm the scanner quarantines it. If it lands in your bucket clean, your scanning step is not running.",
+      "flagged": true,
+      "hosted": "flagged",
+      "bytes": 68,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f"
+    },
+    {
+      "key": "security/gtube-spam.txt",
+      "diskPath": "f/security/gtube-spam.txt",
+      "name": "gtube-spam.txt",
+      "category": "Security and validation",
+      "format": "TXT",
+      "tags": [
+        "spam",
+        "gtube",
+        "flagged"
+      ],
+      "description": "The GTUBE (Generic Test for Unsolicited Bulk Email) string, which SpamAssassin and compatible filters score as definitively spam.",
+      "catches": "Whether the spam-filtering stage of a mail or ticketing ingest pipeline is active.",
+      "flagged": true,
+      "hosted": "flagged",
+      "bytes": 90,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "793134d85ab74d7a06ef32a418fd1c5b970c0dcce9404e94592e292ef54c42f1"
+    },
+    {
+      "key": "security/html-xss-payloads.html",
+      "diskPath": "f/security/html-xss-payloads.html",
+      "name": "html-xss-payloads.html",
+      "category": "Security and validation",
+      "format": "HTML",
+      "tags": [
+        "xss",
+        "sanitiser"
+      ],
+      "description": "A catalogue of common XSS vectors - inline script, event handlers, javascript: URLs, SVG and iframe payloads. Every payload calls console.log only.",
+      "catches": "HTML sanitisers, rich-text editors and preview renderers. Feed this through your sanitiser and diff the output: anything executable that survives is a finding.",
+      "flagged": false,
+      "hosted": "flagged",
+      "bytes": 855,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "6be860331959cf4a89a293a213f56912a5378c1db21a79cdd885a8e7daf87ef2"
+    },
+    {
+      "key": "security/path-traversal-payloads.txt",
+      "diskPath": "f/security/path-traversal-payloads.txt",
+      "name": "path-traversal-payloads.txt",
+      "category": "Security and validation",
+      "format": "TXT",
+      "tags": [
+        "path-traversal",
+        "fuzzing"
+      ],
+      "description": "A newline-delimited list of path-traversal encodings: plain, URL-encoded, double-encoded, UTF-8 overlong, backslash and mixed variants. Intended as fuzzer input, not as a file to extract.",
+      "catches": "Path canonicalisation. A correct implementation resolves and then verifies containment; a naive one filters the literal string \"../\" and misses every other row in this file.",
+      "flagged": false,
+      "hosted": "flagged",
+      "bytes": 305,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "d28d1320f9769e30d043f970fd9ca87134427d4e03ea395e03377e8d811bbf3e"
+    },
+    {
+      "key": "security/polyglot-gif-html.gif",
+      "diskPath": "f/security/polyglot-gif-html.gif",
+      "name": "polyglot-gif-html.gif",
+      "category": "Security and validation",
+      "format": "GIF + HTML polyglot",
+      "tags": [
+        "polyglot",
+        "mime-mismatch"
+      ],
+      "description": "A file that is simultaneously a valid GIF (correct GIF89a header and dimensions) and valid HTML containing an inert script. Renders as an image to an image parser and as a page to a browser.",
+      "catches": "Content-type sniffing. If your server serves user uploads without X-Content-Type-Options: nosniff, a browser may sniff this as HTML and execute it from your origin, even though it passed image validation on upload.",
+      "flagged": false,
+      "hosted": "flagged",
+      "bytes": 192,
+      "mime": "image/gif",
+      "sha256": "c965bb91779eaa8bbf8a03cca8ea28223de282237a38b736541b8f14eb724b5f"
+    },
+    {
+      "key": "security/shell-script.sh",
+      "diskPath": "f/security/shell-script.sh",
+      "name": "shell-script.sh",
+      "category": "Security and validation",
+      "format": "Shell script",
+      "tags": [
+        "blocklist",
+        "executable"
+      ],
+      "description": "An executable shell script that only prints a line. Present to test extension blocklists.",
+      "catches": "Upload blocklists. This should be rejected by an allowlist-based validator. If your rule is a blocklist, check that it also catches .bash, .zsh, .command and a script with no extension at all.",
+      "flagged": false,
+      "hosted": "flagged",
+      "bytes": 65,
+      "mime": "text/x-shellscript",
+      "sha256": "439243ddb2ed338bbd64eef9e211dfd4832ccbfe86945b0e22d63ed3a065b9b8"
+    },
+    {
+      "key": "security/sql-injection-payloads.txt",
+      "diskPath": "f/security/sql-injection-payloads.txt",
+      "name": "sql-injection-payloads.txt",
+      "category": "Security and validation",
+      "format": "TXT",
+      "tags": [
+        "sqli",
+        "fuzzing"
+      ],
+      "description": "Newline-delimited SQL injection strings for input-validation fuzzing. Includes tautologies, comment terminators, union probes and stacked-query syntax.",
+      "catches": "Form fields and query parameters that concatenate rather than parameterise. Every one of these should be stored and echoed back as a literal string.",
+      "flagged": false,
+      "hosted": "flagged",
+      "bytes": 157,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "520b4965c786607d39fcfa27a840d0e6e99c7074e0703dccbcb0537ae316e0d3"
+    },
+    {
+      "key": "security/windows-batch.bat",
+      "diskPath": "f/security/windows-batch.bat",
+      "name": "windows-batch.bat",
+      "category": "Security and validation",
+      "format": "Batch file",
+      "tags": [
+        "blocklist",
+        "executable"
+      ],
+      "description": "A Windows batch file that only echoes a line.",
+      "catches": "The Windows half of the blocklist test. Also check .cmd, .ps1, .vbs and .scr.",
+      "flagged": false,
+      "hosted": "flagged",
+      "bytes": 69,
+      "mime": "text/plain",
+      "sha256": "d21ca7d218cbb7b35b11dee42f7d750456f35c859a643152ddb0c58898ab0386"
+    },
+    {
+      "key": "size/0b.bin",
+      "diskPath": "f/size/0b.bin",
+      "name": "0b.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size",
+        "edge"
+      ],
+      "description": "Empty file, exactly 0 bytes.",
+      "catches": "Zero-byte file. The single most under-tested upload case: many validators check the MIME type and extension but never assert size > 0, so an empty file passes and breaks downstream processing.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 0,
+      "mime": "application/octet-stream",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "key": "size/100kb.bin",
+      "diskPath": "f/size/100kb.bin",
+      "name": "100kb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 102,400 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 102400,
+      "mime": "application/octet-stream",
+      "sha256": "ab19e27a5f390f15fab446794cdfd7db9d3dfe0630b098d3284094907048923d"
+    },
+    {
+      "key": "size/100mb.bin",
+      "diskPath": "f/size/100mb.bin",
+      "name": "100mb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size",
+        "large"
+      ],
+      "description": "Exactly 104,857,600 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Crosses the default body limit of most reverse proxies. Nginx defaults to client_max_body_size 1m, so anything above that needs explicit configuration.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 104857600,
+      "mime": "application/octet-stream",
+      "sha256": "23ed1f103e6a36cc6519213d7087b3685baaa19ac6aad1b92bd26ead0bcf7826"
+    },
+    {
+      "key": "size/10kb.bin",
+      "diskPath": "f/size/10kb.bin",
+      "name": "10kb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 10,240 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 10240,
+      "mime": "application/octet-stream",
+      "sha256": "74b2360b9060b915eb045b412401001af82aa456dcc9c9552d6a94e2b0cee4b9"
+    },
+    {
+      "key": "size/10mb.bin",
+      "diskPath": "f/size/10mb.bin",
+      "name": "10mb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 10,485,760 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 10485760,
+      "mime": "application/octet-stream",
+      "sha256": "7d14befba4830a4cf23b62671cb1b6d8fc4876a72018266dff9f267c4316510c"
+    },
+    {
+      "key": "size/1b.bin",
+      "diskPath": "f/size/1b.bin",
+      "name": "1b.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 1 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "One byte. Catches off-by-one buffer maths and code that treats a 1-byte read as EOF.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1,
+      "mime": "application/octet-stream",
+      "sha256": "dabd3aff769f07eb2965401eb029974ebba3407afd02b26ddb564ea5f8efae72"
+    },
+    {
+      "key": "size/1kb.bin",
+      "diskPath": "f/size/1kb.bin",
+      "name": "1kb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 1,024 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1024,
+      "mime": "application/octet-stream",
+      "sha256": "36e805711b4ffe56b60eb0d2b3a426ad09ed11e06afaaa7b663a11887232d892"
+    },
+    {
+      "key": "size/1mb.bin",
+      "diskPath": "f/size/1mb.bin",
+      "name": "1mb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 1,048,576 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1048576,
+      "mime": "application/octet-stream",
+      "sha256": "30b93b424b6eaae04620a6bafe1f7eb6b2aa62fb1455210bd5be45730fa777ff"
+    },
+    {
+      "key": "size/250mb.bin",
+      "diskPath": "f/size/250mb.bin",
+      "name": "250mb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size",
+        "large"
+      ],
+      "description": "Exactly 262,144,000 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Large enough to force multipart or chunked upload paths and to make timeout configuration visible.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 262144000,
+      "mime": "application/octet-stream",
+      "sha256": "7dc5425bbb25b756ea77a03e64d1eead38e348fe39022653fc4cda018345566e"
+    },
+    {
+      "key": "size/50mb.bin",
+      "diskPath": "f/size/50mb.bin",
+      "name": "50mb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 52,428,800 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 52428800,
+      "mime": "application/octet-stream",
+      "sha256": "3323345fbbe2d6c678648f671c6de1b5ee578f9f01b2fa12f67ca054e367b442"
+    },
+    {
+      "key": "size/512b.bin",
+      "diskPath": "f/size/512b.bin",
+      "name": "512b.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 512 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 512,
+      "mime": "application/octet-stream",
+      "sha256": "e6fa777e57935c99990559e1afcc155fd9a1cf6669cbf1ec3ddd9b8ef40ee7a1"
+    },
+    {
+      "key": "size/5mb.bin",
+      "diskPath": "f/size/5mb.bin",
+      "name": "5mb.bin",
+      "category": "Size ladder",
+      "format": "Binary",
+      "tags": [
+        "size"
+      ],
+      "description": "Exactly 5,242,880 bytes of deterministic incompressible pseudo-random data.",
+      "catches": "Upload and download size-limit boundaries. Incompressible, so transfer-encoding gzip gives no free win and measured throughput reflects real bandwidth.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 5242880,
+      "mime": "application/octet-stream",
+      "sha256": "e9a81188e0425fa657c93cec88b47707f5c2c415cd2168f8cdf764df9477dc51"
+    },
+    {
+      "key": "subtitle/comma-separator.vtt",
+      "diskPath": "f/subtitle/comma-separator.vtt",
+      "name": "comma-separator.vtt",
+      "category": "Subtitles and captions",
+      "format": "WebVTT",
+      "tags": [
+        "subtitle",
+        "negative",
+        "edge"
+      ],
+      "description": "WebVTT that uses the SRT comma decimal separator in its timestamps instead of a full stop.",
+      "catches": "The classic result of renaming a .srt to .vtt. The signature is present and the structure looks right, so a lenient parser may accept it, but the timestamps are invalid WebVTT and cues are commonly dropped or mistimed rather than reported as an error.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 176,
+      "mime": "text/vtt; charset=utf-8",
+      "sha256": "4750082833b28bd77e218973efbe11e0b9a9763ae226c99a24ecb0a20f9c8d6b"
+    },
+    {
+      "key": "subtitle/missing-signature.vtt",
+      "diskPath": "f/subtitle/missing-signature.vtt",
+      "name": "missing-signature.vtt",
+      "category": "Subtitles and captions",
+      "format": "WebVTT",
+      "tags": [
+        "subtitle",
+        "negative",
+        "malformed"
+      ],
+      "description": "A WebVTT file with correct cues but no \"WEBVTT\" first line, which makes the whole file invalid.",
+      "catches": "Players that parse cues without checking the signature. The spec requires the file to start with WEBVTT, so a conforming player rejects this outright while a lenient one silently plays it. Tells you which of the two you have built.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 138,
+      "mime": "text/vtt; charset=utf-8",
+      "sha256": "50cf66ef41bf05706e150236a4c48c25a65fc23b54c06cfba0c9143abe57b3f2"
+    },
+    {
+      "key": "subtitle/overlapping-cues.srt",
+      "diskPath": "f/subtitle/overlapping-cues.srt",
+      "name": "overlapping-cues.srt",
+      "category": "Subtitles and captions",
+      "format": "SRT",
+      "tags": [
+        "subtitle",
+        "edge"
+      ],
+      "description": "SRT whose cues overlap in time and are not in chronological order, with one zero-length cue.",
+      "catches": "Renderers that assume cues arrive sorted and never overlap. Overlapping cues are legal and must be shown together; a zero-length cue (identical start and end) is the one that causes divide-by-zero and infinite-loop bugs in timing code.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 252,
+      "mime": "application/x-subrip; charset=utf-8",
+      "sha256": "cf5259514f8ff313a3c625dab6d1932e5c8a7f7a3df74c58d89667ba68b41a86"
+    },
+    {
+      "key": "subtitle/valid.srt",
+      "diskPath": "f/subtitle/valid.srt",
+      "name": "valid.srt",
+      "category": "Subtitles and captions",
+      "format": "SRT",
+      "tags": [
+        "subtitle",
+        "valid",
+        "baseline"
+      ],
+      "description": "A valid SubRip file: four cues, 1-based numbering, comma decimal separator, blank line between cues.",
+      "catches": "Baseline subtitle parsing. SRT times use a COMMA before the milliseconds (00:00:01,000), which is the detail parsers written against WebVTT get wrong.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 316,
+      "mime": "application/x-subrip; charset=utf-8",
+      "sha256": "9bd108406fd1c6924494a87a90ff6c9e577aa8bec6f697ec3960a63bf3f8af5b"
+    },
+    {
+      "key": "subtitle/valid.vtt",
+      "diskPath": "f/subtitle/valid.vtt",
+      "name": "valid.vtt",
+      "category": "Subtitles and captions",
+      "format": "WebVTT",
+      "tags": [
+        "subtitle",
+        "valid",
+        "baseline"
+      ],
+      "description": "A valid WebVTT file with the required signature, a NOTE comment, a named cue and cue settings.",
+      "catches": "Baseline WebVTT parsing in HTML5 <track>. Uses a FULL STOP before the milliseconds (00:00:01.000), the opposite of SRT, and carries cue settings that a naive line splitter will treat as text.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 399,
+      "mime": "text/vtt; charset=utf-8",
+      "sha256": "301323cac0aa86219c7f17917e84c18b5e0c8792d431d855798e50c5326be685"
+    },
+    {
+      "key": "text/latin1.txt",
+      "diskPath": "f/text/latin1.txt",
+      "name": "latin1.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding"
+      ],
+      "description": "ISO-8859-1 / Latin-1 encoded text with accented characters.",
+      "catches": "Legacy-export paths where high bytes are invalid UTF-8 sequences and decoding throws or yields U+FFFD.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 43,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "f55e2be006165fb601823726e6bd0764b442a5dfbc348b7d3a797f4a97fc5d41"
+    },
+    {
+      "key": "text/line-endings-crlf.txt",
+      "diskPath": "f/text/line-endings-crlf.txt",
+      "name": "line-endings-crlf.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding",
+        "line-endings"
+      ],
+      "description": "20 lines terminated with Windows CRLF (\\r\\n).",
+      "catches": "Line-based diffing, checksum comparison and CSV parsing that assumes LF. Pair with line-endings-lf.txt: the two must produce identical parsed rows.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1071,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "f1d13bf3e400ae9865148d88e8cbecbc553c5c78e76e833cf3b8e81d65280115"
+    },
+    {
+      "key": "text/line-endings-lf.txt",
+      "diskPath": "f/text/line-endings-lf.txt",
+      "name": "line-endings-lf.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding",
+        "line-endings"
+      ],
+      "description": "20 lines terminated with Unix LF (\\n). Byte-for-byte content twin of the CRLF file.",
+      "catches": "The control half of the CRLF comparison.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1051,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "a6ef6400340b1a434b5d8eb8527e5ee71cf2eefff19135dab9f2b726c390df07"
+    },
+    {
+      "key": "text/no-trailing-newline.txt",
+      "diskPath": "f/text/no-trailing-newline.txt",
+      "name": "no-trailing-newline.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "edge",
+        "line-endings"
+      ],
+      "description": "Three lines where the final line has no terminating newline.",
+      "catches": "Line readers that drop the last record, and concatenation logic that glues the final line to the first line of the next file.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 19,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "3ed32da374e230c6228e132c8c334191759286fee4813e1ed4eba4d9b9366ea7"
+    },
+    {
+      "key": "text/utf16be.txt",
+      "diskPath": "f/text/utf16be.txt",
+      "name": "utf16be.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding"
+      ],
+      "description": "UTF-16 big-endian with BOM.",
+      "catches": "Code that hardcodes little-endian after only ever testing on x86.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 162,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "f90d1333c7efc583acff83947170dba1e663066c672dd21ae0445edfcd3216d8"
+    },
+    {
+      "key": "text/utf16le.txt",
+      "diskPath": "f/text/utf16le.txt",
+      "name": "utf16le.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding"
+      ],
+      "description": "UTF-16 little-endian with BOM, which is what Windows PowerShell and Notepad historically emit.",
+      "catches": "Importers that read bytes as UTF-8 and see NUL between every character.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 162,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "4496b6b074dfaf6b170cfce06dae05970fa0787985232918b702d85381fdf793"
+    },
+    {
+      "key": "text/utf8-no-bom.txt",
+      "diskPath": "f/text/utf8-no-bom.txt",
+      "name": "utf8-no-bom.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding"
+      ],
+      "description": "UTF-8 without a byte-order mark. The correct modern default.",
+      "catches": "Readers that guess Latin-1 and mangle the umlauts, CJK and emoji into mojibake.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 99,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "54838db0165f05296350688ed04e2304c616001ff8e1446a54ab24a10e8af99e"
+    },
+    {
+      "key": "text/utf8-with-bom.txt",
+      "diskPath": "f/text/utf8-with-bom.txt",
+      "name": "utf8-with-bom.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "encoding"
+      ],
+      "description": "UTF-8 with a leading BOM (EF BB BF).",
+      "catches": "Parsers that treat the BOM as content, the classic cause of a stray \"\" before the first CSV header and of JSON.parse failing on a file that looks perfectly valid in an editor.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 102,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "ac0d490b3c84d5f8e830a7860f3f9c96846a92021d9b124a97bef0cfd021391d"
+    },
+    {
+      "key": "text/very-long-single-line.txt",
+      "diskPath": "f/text/very-long-single-line.txt",
+      "name": "very-long-single-line.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "edge",
+        "performance"
+      ],
+      "description": "A single line of 1,000,000 characters with no newline anywhere in the file.",
+      "catches": "Line-buffered readers that allocate unboundedly, editors that hang, and log shippers with a per-line size cap that silently truncate.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 1024000,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "c51ef575b90527d834c783bc9a303383b421e84e7d885c225e2eaa3e59768754"
+    },
+    {
+      "key": "text/zero-width-and-rtl.txt",
+      "diskPath": "f/text/zero-width-and-rtl.txt",
+      "name": "zero-width-and-rtl.txt",
+      "category": "Documents",
+      "format": "TXT",
+      "tags": [
+        "unicode",
+        "security"
+      ],
+      "description": "Text containing zero-width spaces, zero-width joiners, and bidirectional override characters (U+202E).",
+      "catches": "Search and dedupe logic that treats visually identical strings as different, and UI that renders text in an order the underlying bytes do not match (Trojan Source class of bug).",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 94,
+      "mime": "text/plain; charset=utf-8",
+      "sha256": "655072c13266ced43394f7f4f66a7e59d5047ae53e2f17447b2a9bafe8a83e30"
+    },
+    {
+      "key": "video/empty-ftyp-only.mp4",
+      "diskPath": "f/video/empty-ftyp-only.mp4",
+      "name": "empty-ftyp-only.mp4",
+      "category": "Audio and video",
+      "format": "MP4",
+      "tags": [
+        "edge",
+        "negative"
+      ],
+      "description": "A valid ftyp box declaring isom/mp42 branding, with no moov and no mdat - structurally an MP4, but with zero tracks.",
+      "catches": "Probing code that checks only the ftyp box and reports the file as playable video. Duration and track enumeration should fail cleanly, not return NaN.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 28,
+      "mime": "video/mp4",
+      "sha256": "5c15fbf395d7d984bba8eeedf90f7adbc0c166cfd9e633d6d18b5153231bdd85"
+    },
+    {
+      "key": "video/fake-mp4-wrong-magic.mp4",
+      "diskPath": "f/video/fake-mp4-wrong-magic.mp4",
+      "name": "fake-mp4-wrong-magic.mp4",
+      "category": "Audio and video",
+      "format": "MP4 (spoofed)",
+      "tags": [
+        "negative",
+        "mime-mismatch"
+      ],
+      "description": "Named .mp4 but the first bytes are random noise rather than an ftyp box. Contains no video data.",
+      "catches": "Transcode queues that accept a job based on the extension and only discover the file is not video after burning a worker slot on it. Validate the ftyp box at upload time.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 65536,
+      "mime": "video/mp4",
+      "sha256": "678b109814ee687b8672b6fe9f559cfae722aa79285ac23bf1ca792de9e97ded"
+    },
+    {
+      "key": "web/calendar.ics",
+      "diskPath": "f/web/calendar.ics",
+      "name": "calendar.ics",
+      "category": "Web and text formats",
+      "format": "iCalendar",
+      "tags": [
+        "calendar",
+        "valid"
+      ],
+      "description": "An iCalendar (RFC 5545) file with one timed event and one all-day event.",
+      "catches": "Calendar import (Google, Outlook, Apple). CRLF line endings are mandatory in iCalendar, and this file uses them - a good check for code that normalises newlines and breaks the format.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 374,
+      "mime": "text/calendar; charset=utf-8",
+      "sha256": "d83569e5dc89c6ff4a43fa084c28b853bdb142bd46372da8e2203aa9f7f65535"
+    },
+    {
+      "key": "web/contact.vcf",
+      "diskPath": "f/web/contact.vcf",
+      "name": "contact.vcf",
+      "category": "Web and text formats",
+      "format": "vCard",
+      "tags": [
+        "contact",
+        "valid"
+      ],
+      "description": "A vCard 3.0 contact with name, organisation, phone, email and a unicode field.",
+      "catches": "Contact import. Includes a non-ASCII organisation name to catch importers that assume ASCII, and the CRLF line endings vCard requires.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 137,
+      "mime": "text/vcard; charset=utf-8",
+      "sha256": "73027d2e6ad61dc2684aea3db1295e6dc48a6b3533783f3134f1f0e2a47b8e86"
+    },
+    {
+      "key": "web/data.tsv",
+      "diskPath": "f/web/data.tsv",
+      "name": "data.tsv",
+      "category": "Web and text formats",
+      "format": "TSV",
+      "tags": [
+        "data",
+        "valid"
+      ],
+      "description": "Tab-separated values with a header row and a field that itself contains spaces.",
+      "catches": "Importers that treat TSV as \"CSV with commas\" and split on the wrong delimiter, or that collapse runs of whitespace and merge the tab-separated columns.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 80,
+      "mime": "text/tab-separated-values; charset=utf-8",
+      "sha256": "4f207e63c97aca7063ba37237cf4c32ced1d0fc46a2a06120e70d001eee7ed11"
+    },
+    {
+      "key": "web/document.rtf",
+      "diskPath": "f/web/document.rtf",
+      "name": "document.rtf",
+      "category": "Web and text formats",
+      "format": "RTF",
+      "tags": [
+        "document",
+        "valid"
+      ],
+      "description": "A minimal Rich Text Format document with bold and plain runs.",
+      "catches": "RTF is often accepted wherever DOC is, but it is plain text with control words, not a ZIP. Catches importers that route on the .rtf extension into a binary DOC parser.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 178,
+      "mime": "application/rtf",
+      "sha256": "d76739a82a97dbc92a9a92a375b969fafbf3383af558ead6984b82d7e4826b83"
+    },
+    {
+      "key": "web/page.html",
+      "diskPath": "f/web/page.html",
+      "name": "page.html",
+      "category": "Web and text formats",
+      "format": "HTML",
+      "tags": [
+        "web",
+        "valid"
+      ],
+      "description": "A small, valid, standards-mode HTML5 document with common elements and no scripts.",
+      "catches": "HTML preview, sanitiser baselines and \"render to PDF\" pipelines. This one is inert and must survive sanitisation intact - contrast with the XSS payloads in the security set.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 413,
+      "mime": "text/html; charset=utf-8",
+      "sha256": "37d8311e51cdadc2900f0fd05b3c7bfa0aec4dd104669b3b6a9b1797b0185e60"
+    },
+    {
+      "key": "web/README.md",
+      "diskPath": "f/web/README.md",
+      "name": "README.md",
+      "category": "Web and text formats",
+      "format": "Markdown",
+      "tags": [
+        "document",
+        "valid"
+      ],
+      "description": "A Markdown document exercising headings, lists, code fences, tables, links and blockquotes.",
+      "catches": "Markdown renderers and converters. A fenced code block that itself contains Markdown catches renderers that fail to treat fenced content as literal.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 413,
+      "mime": "text/markdown; charset=utf-8",
+      "sha256": "21374daf2dee79ce9f2ec56bee18b02797e0b41a3e6c9506ae6a6b9b793c166d"
+    },
+    {
+      "key": "web/script.js",
+      "diskPath": "f/web/script.js",
+      "name": "script.js",
+      "category": "Web and text formats",
+      "format": "JavaScript",
+      "tags": [
+        "web",
+        "valid"
+      ],
+      "description": "A small ES module using modern syntax (arrow functions, template literals, async/await).",
+      "catches": "JS parsers, bundlers and transpilers. Uses ES2017+ features so it catches tooling stuck on older syntax.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 280,
+      "mime": "text/javascript; charset=utf-8",
+      "sha256": "6e3cfd965abc322f3a9997fb3cec7943ba33373fe6ccd43adf6f7dee71af2eab"
+    },
+    {
+      "key": "web/styles.css",
+      "diskPath": "f/web/styles.css",
+      "name": "styles.css",
+      "category": "Web and text formats",
+      "format": "CSS",
+      "tags": [
+        "web",
+        "valid"
+      ],
+      "description": "A stylesheet covering variables, media queries, grid, and a keyframe animation.",
+      "catches": "CSS parsers, minifiers and linters. Exercises custom properties and @media/@keyframes at-rules.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 357,
+      "mime": "text/css; charset=utf-8",
+      "sha256": "5b2f58b56681b42ff525a8a3cea379c5db618b0881b898d2ab147797d1a82c00"
+    },
+    {
+      "key": "xml/billion-laughs.xml",
+      "diskPath": "f/xml/billion-laughs.xml",
+      "name": "billion-laughs.xml",
+      "category": "Structured data",
+      "format": "XML",
+      "tags": [
+        "security",
+        "dos"
+      ],
+      "description": "Classic entity-expansion bomb: nine levels of entities each referencing the previous ten times. Under 1 KB on disk, expands to ~1 GB of text if entity expansion is unbounded.",
+      "catches": "Parsers without an entity-expansion limit. A hardened parser rejects this in milliseconds; a vulnerable one consumes all available memory.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 794,
+      "mime": "application/xml",
+      "sha256": "9ca01fc0e877f248ff50f66de22330cbfb71785e34f26656cf68a0aac21f642c"
+    },
+    {
+      "key": "xml/unclosed-tag.xml",
+      "diskPath": "f/xml/unclosed-tag.xml",
+      "name": "unclosed-tag.xml",
+      "category": "Structured data",
+      "format": "XML",
+      "tags": [
+        "negative",
+        "malformed"
+      ],
+      "description": "XML with a tag that is never closed.",
+      "catches": "Error reporting quality - the message should include a line and column.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 51,
+      "mime": "application/xml",
+      "sha256": "7de03c5a454c2e81def4c6bf72d0e35f80e24d7f8e2a40d60e9cabd51598477a"
+    },
+    {
+      "key": "xml/valid.xml",
+      "diskPath": "f/xml/valid.xml",
+      "name": "valid.xml",
+      "category": "Structured data",
+      "format": "XML",
+      "tags": [
+        "valid",
+        "baseline"
+      ],
+      "description": "Well-formed XML with namespaces, attributes, CDATA and a comment.",
+      "catches": "Baseline for the XML parser cases below.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 395,
+      "mime": "application/xml",
+      "sha256": "83894bdebdcc14d2a95a4144e89839b39b66b775dc53fde2a886a3f78549f490"
+    },
+    {
+      "key": "xml/xxe-file-disclosure.xml",
+      "diskPath": "f/xml/xxe-file-disclosure.xml",
+      "name": "xxe-file-disclosure.xml",
+      "category": "Structured data",
+      "format": "XML",
+      "tags": [
+        "security",
+        "xxe"
+      ],
+      "description": "XML declaring an external entity that reads a local file. Targets /etc/hostname - deliberately innocuous rather than /etc/passwd.",
+      "catches": "Parsers with external entity resolution enabled by default (older libxml2, Java DocumentBuilder, .NET XmlTextReader). If the response echoes your hostname back, you have a file-disclosure hole.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 141,
+      "mime": "application/xml",
+      "sha256": "3b24847c3f0f1c1e34b3d8b2bee9d2229da9613a35b7163bb4842ffcaf4aae83"
+    },
+    {
+      "key": "yaml/norway-problem.yaml",
+      "diskPath": "f/yaml/norway-problem.yaml",
+      "name": "norway-problem.yaml",
+      "category": "Structured data",
+      "format": "YAML",
+      "tags": [
+        "edge",
+        "parsing"
+      ],
+      "description": "YAML 1.1 implicit-typing traps: unquoted NO becomes false, unquoted YES becomes true, version strings become floats, and leading-zero values parse as octal.",
+      "catches": "The famous \"Norway problem\" - a country list where NO silently becomes boolean false. Also catches version: 1.10 collapsing to 1.1. Parsers on YAML 1.2 core schema behave differently, so this file also reveals which spec version your library actually implements.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 161,
+      "mime": "application/yaml",
+      "sha256": "17ba9fa29d8d1969a11d0f7ca1bce8c25a8421d2b0397b5ecc68616fe033332b"
+    },
+    {
+      "key": "yaml/tabs-invalid.yaml",
+      "diskPath": "f/yaml/tabs-invalid.yaml",
+      "name": "tabs-invalid.yaml",
+      "category": "Structured data",
+      "format": "YAML",
+      "tags": [
+        "negative",
+        "malformed"
+      ],
+      "description": "YAML indented with tab characters, which the specification forbids.",
+      "catches": "Config loaders whose error message just says \"unexpected character\" without pointing at the tab. A very common source of confusing CI failures.",
+      "flagged": false,
+      "hosted": "files",
+      "bytes": 34,
+      "mime": "application/yaml",
+      "sha256": "02941a4076012f35422bd673abd9b834d4f5783934fe9379ca669b00af728681"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# Example only: copy it to .github/workflows/ in your own repository.
+# Fetches a HEXAQA test pack, verifies it, and runs your tests against it.
+name: Upload tests with HEXAQA fixtures
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and verify the Upload Torture pack
+        run: |
+          curl -fsSLO https://files.hexaqa.com/pack/upload-torture-pack.zip
+          echo "ccdfb70856e375153309efea81762f6c4d680aae8237d6d2b51aba9a963d08fe  upload-torture-pack.zip" | sha256sum -c -
+          unzip -q upload-torture-pack.zip -d fixtures
+          (cd fixtures && sha256sum -c SHA256SUMS)
+      - name: Run your tests against ./fixtures/files
+        run: npm test
