@@ -63,10 +63,10 @@ Standard library only, so they run with no install. Download the file next to th
 | [csv/bom-and-semicolons.csv](examples/csv/bom-and-semicolons.csv) | Python |
 | [pdf/truncated.pdf](examples/pdf/truncated.pdf) | Python |
 | [pdf/corrupt-xref.pdf](examples/pdf/corrupt-xref.pdf) | Python |
-| [pdf/valid-1page.pdf](examples/pdf/valid-1page.pdf) | Python |
+| [pdf/valid-1page.pdf](examples/pdf/valid-1page.pdf) | Python, Python |
 | [image/png-truncated.png](examples/image/png-truncated.png) | Python |
 | [image/png-bad-crc.png](examples/image/png-bad-crc.png) | Python |
-| [image/png-valid-256.png](examples/image/png-valid-256.png) | Python |
+| [image/png-valid-256.png](examples/image/png-valid-256.png) | Python, Python, Node.js |
 | [image/fake-jpeg-is-executable.jpg](examples/image/fake-jpeg-is-executable.jpg) | Python, Node.js |
 | [image/no-extension](examples/image/no-extension) | Python |
 | [db/truncated.sqlite](examples/db/truncated.sqlite) | Python |
@@ -84,6 +84,107 @@ Standard library only, so they run with no install. Download the file next to th
 | [ebook/broken-container.epub](examples/ebook/broken-container.epub) | Python |
 | [ebook/valid.epub](examples/ebook/valid.epub) | Python |
 | [file names](examples/filename/checks) | Python, Node.js |
+| [image/png-1x1.png](examples/image/png-1x1.png) | Python, Node.js |
+| [image/png-8000x8000.png](examples/image/png-8000x8000.png) | Python, Node.js |
+| [image/png-alpha-gradient.png](examples/image/png-alpha-gradient.png) | Python, Node.js |
+| [image/png-interlaced.png](examples/image/png-interlaced.png) | Python, Node.js |
+| [image/gif-animated.gif](examples/image/gif-animated.gif) | Python, Node.js |
+| [image/gif-static.gif](examples/image/gif-static.gif) | Python, Node.js |
+| [image/bmp-24bit.bmp](examples/image/bmp-24bit.bmp) | Python, Node.js |
+| [image/jpeg-baseline.jpg](examples/image/jpeg-baseline.jpg) | Python, Node.js |
+| [image/jpeg-tiny-16px.jpg](examples/image/jpeg-tiny-16px.jpg) | Python, Node.js |
+| [image/flat-96x96.webp](examples/image/flat-96x96.webp) | Python, Node.js |
+| [image/transparent-1x1.webp](examples/image/transparent-1x1.webp) | Python, Node.js |
+| [email/plain-text.eml](examples/email/plain-text.eml) | Python |
+| [email/html-multipart.eml](examples/email/html-multipart.eml) | Python |
+| [email/with-attachment.eml](examples/email/with-attachment.eml) | Python |
+| [email/attachment-tricky-filename.eml](examples/email/attachment-tricky-filename.eml) | Python |
+| [email/spoofed-display-name.eml](examples/email/spoofed-display-name.eml) | Python |
+| [email/missing-required-headers.eml](examples/email/missing-required-headers.eml) | Python |
+| [email/unicode-headers.eml](examples/email/unicode-headers.eml) | Python |
+| [email/quoted-printable.eml](examples/email/quoted-printable.eml) | Python |
+| [email/inline-image-cid.eml](examples/email/inline-image-cid.eml) | Python |
+| [email/forwarded-nested.eml](examples/email/forwarded-nested.eml) | Python |
+| [email/winmail-tnef.eml](examples/email/winmail-tnef.eml) | Python |
+| [email/long-folded-headers.eml](examples/email/long-folded-headers.eml) | Python |
+| [email/empty-body.eml](examples/email/empty-body.eml) | Python |
+| [email/threaded-reply.eml](examples/email/threaded-reply.eml) | Python |
+| [email/dkim-spf-headers.eml](examples/email/dkim-spf-headers.eml) | Python |
+| [email/mailbox.mbox](examples/email/mailbox.mbox) | Python |
+| [folder/case-collision-dirs.zip](examples/folder/case-collision-dirs.zip) | Python |
+| [folder/deep-path-over-260.zip](examples/folder/deep-path-over-260.zip) | Python |
+| [folder/empty-directory.zip](examples/folder/empty-directory.zip) | Python |
+| [folder/explicit-dir-entries.zip](examples/folder/explicit-dir-entries.zip) | Python |
+| [folder/reserved-and-awkward-dirs.zip](examples/folder/reserved-and-awkward-dirs.zip) | Python |
+| [folder/separator-confusion.zip](examples/folder/separator-confusion.zip) | Python |
+| [folder/unicode-dir-names.zip](examples/folder/unicode-dir-names.zip) | Python |
+| [archive/unicode-entry-names.zip](examples/archive/unicode-entry-names.zip) | Python |
+| [archive/valid-nested-dirs.zip](examples/archive/valid-nested-dirs.zip) | Python |
+| [archive/empty.zip](examples/archive/empty.zip) | Python |
+| [archive/valid.tar](examples/archive/valid.tar) | Python |
+| [archive/valid.tar.gz](examples/archive/valid.tar.gz) | Python |
+| [office/macro-enabled.xlsm](examples/office/macro-enabled.xlsm) | Python |
+| [office/spreadsheet.xlsx](examples/office/spreadsheet.xlsx) | Python, Python |
+| [office/formula-injection.xlsx](examples/office/formula-injection.xlsx) | Python |
+| [office/presentation.pptx](examples/office/presentation.pptx) | Python |
+| [office/document.odt](examples/office/document.odt) | Python |
+| [office/spreadsheet.ods](examples/office/spreadsheet.ods) | Python |
+| [office/presentation.odp](examples/office/presentation.odp) | Python |
+| [office/legacy-workbook.xls](examples/office/legacy-workbook.xls) | Python |
+| [text/line-endings-crlf.txt](examples/text/line-endings-crlf.txt) | Python |
+| [text/line-endings-lf.txt](examples/text/line-endings-lf.txt) | Python |
+| [text/no-trailing-newline.txt](examples/text/no-trailing-newline.txt) | Python |
+| [text/zero-width-and-rtl.txt](examples/text/zero-width-and-rtl.txt) | Python |
+| [text/utf8-no-bom.txt](examples/text/utf8-no-bom.txt) | Python |
+| [text/very-long-single-line.txt](examples/text/very-long-single-line.txt) | Python |
+| [subtitle/valid.srt](examples/subtitle/valid.srt) | Python |
+| [subtitle/overlapping-cues.srt](examples/subtitle/overlapping-cues.srt) | Python |
+| [subtitle/valid.vtt](examples/subtitle/valid.vtt) | Python |
+| [subtitle/missing-signature.vtt](examples/subtitle/missing-signature.vtt) | Python |
+| [subtitle/comma-separator.vtt](examples/subtitle/comma-separator.vtt) | Python |
+| [csv/ragged-rows.csv](examples/csv/ragged-rows.csv) | Python |
+| [csv/valid-simple.csv](examples/csv/valid-simple.csv) | Python |
+| [csv/quoting-nightmare.csv](examples/csv/quoting-nightmare.csv) | Python |
+| [csv/1000-rows.csv](examples/csv/1000-rows.csv) | Python |
+| [web/data.tsv](examples/web/data.tsv) | Python |
+| [pdf/no-text-layer.pdf](examples/pdf/no-text-layer.pdf) | Python |
+| [pdf/valid-500pages.pdf](examples/pdf/valid-500pages.pdf) | Python |
+| [pdf/empty-zero-pages.pdf](examples/pdf/empty-zero-pages.pdf) | Python |
+| [geo/points.geojson](examples/geo/points.geojson) | Python |
+| [geo/malformed-coords.geojson](examples/geo/malformed-coords.geojson) | Python |
+| [geo/antimeridian.geojson](examples/geo/antimeridian.geojson) | Python |
+| [geo/track.gpx](examples/geo/track.gpx) | Python |
+| [geo/placemarks.kml](examples/geo/placemarks.kml) | Python |
+| [image/svg-plain.svg](examples/image/svg-plain.svg) | Python |
+| [image/svg-with-script.svg](examples/image/svg-with-script.svg) | Python |
+| [image/svg-external-entity.svg](examples/image/svg-external-entity.svg) | Python |
+| [security/polyglot-gif-html.gif](examples/security/polyglot-gif-html.gif) | Python |
+| [video/empty-ftyp-only.mp4](examples/video/empty-ftyp-only.mp4) | Python |
+| [video/fake-mp4-wrong-magic.mp4](examples/video/fake-mp4-wrong-magic.mp4) | Python |
+| [audio/silence-30s.wav](examples/audio/silence-30s.wav) | Python |
+| [audio/tone-5s.wav](examples/audio/tone-5s.wav) | Python |
+| [audio/very-short-10ms.wav](examples/audio/very-short-10ms.wav) | Python |
+| [code/mixed-indentation.py](examples/code/mixed-indentation.py) | Python |
+| [code/sample.py](examples/code/sample.py) | Python |
+| [code/schema.sql](examples/code/schema.sql) | Python |
+| [security/sql-injection-payloads.txt](examples/security/sql-injection-payloads.txt) | Python |
+| [security/path-traversal-payloads.txt](examples/security/path-traversal-payloads.txt) | Python |
+| [yaml/norway-problem.yaml](examples/yaml/norway-problem.yaml) | Python |
+| [yaml/tabs-invalid.yaml](examples/yaml/tabs-invalid.yaml) | Python |
+| [font/qa-sans.ttf](examples/font/qa-sans.ttf) | Python |
+| [font/qa-sans.woff](examples/font/qa-sans.woff) | Python |
+| [font/qa-sans.woff2](examples/font/qa-sans.woff2) | Python |
+| [xml/unclosed-tag.xml](examples/xml/unclosed-tag.xml) | Python |
+| [xml/valid.xml](examples/xml/valid.xml) | Python |
+| [size/0b.bin](examples/size/0b.bin) | Python, Node.js |
+| [size/1b.bin](examples/size/1b.bin) | Python, Node.js |
+| [size/512b.bin](examples/size/512b.bin) | Python, Node.js |
+| [size/1kb.bin](examples/size/1kb.bin) | Python, Node.js |
+| [size/10kb.bin](examples/size/10kb.bin) | Python, Node.js |
+| [size/100kb.bin](examples/size/100kb.bin) | Python, Node.js |
+| [size/1mb.bin](examples/size/1mb.bin) | Python, Node.js |
+| [size/5mb.bin](examples/size/5mb.bin) | Python, Node.js |
+| [size/10mb.bin](examples/size/10mb.bin) | Python, Node.js |
 
 ## Every file
 
